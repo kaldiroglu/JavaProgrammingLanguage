@@ -1,0 +1,12 @@
+Bilgisayar ile oyuncu olan birisi arasında oynanan bir oyun geliştirmeni istiyorum.
+Bu bir sayı tahmin oyunudur. Oyuncu hafızasında 4 basamaklı bir sayı tutar ve bilgisayar bu sayıyı tahminde bulunarak
+bulmaya çalışır.
+
+Sayı tekrar eden bir rakamı olamaz ve 0 ile başlayamaz.
+Bilgisayarın yaptığı her deneme 4 basamaklı bir sayıdır ve oyuncu
+bu denemeye bir cevap döndürür. Açıklamada doğru yerdeki her rakam için + (artı) ve yanlış yerdeki her rakam
+için de - (eksi) bulunur. Örneğin, oyuncu 5174 rakamını tutar ve bilgisayarın tahmini 1234 ise cevap
++1 ve -1 olur. İkinci tahmin 6890 olabilir ve o zaman cevap 0 olur.
+Cevap +4 olduğunda, bu bilgisayarın tahmininin doğru olduğu ve sayıyı bildiği anlamına gelir ve oyun biter.
+
+Bu oyunu Java'da kodllar mısın? Ayrıca sayıları saklamak için dizi kullan, List veya başka bir Java koleksiyonu kullanma.
