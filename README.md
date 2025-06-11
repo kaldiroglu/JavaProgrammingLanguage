@@ -1,4 +1,4 @@
-Bu, BTK Akademi (https://www.btkakademi.gov.tr/) için hazırladığım "Java Programlama Dili" eğitiminin kaynak kodudur.
+Bu, BTK Akademi (https://www.btkakademi.gov.tr/) için hazırladığım "Java Programlama Dili" eğitiminin kaynak kodlarıdır.
 Daha fazla yardım ve öneri için lütfen bana akin@javaturk.org adresinden ulaşın.
 
 This is the source code for the "Java Programming Language" course created for BTK Akademi (https://www.btkakademi.gov.tr/).
