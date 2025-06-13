@@ -8,7 +8,7 @@ public class SelamTest {
 		String answer = object.greet("Ayse");
 		System.out.println(answer);
 		
-		answer = object.greet("Mehmet");
+		answer = object.greet("Necmi");
 		System.out.println(answer);
 
 		System.out.println("World of the object: " + object.world);
@@ -17,4 +17,3 @@ public class SelamTest {
 		System.out.println(answer);
 	}
 }
-
