@@ -1,1 +1,1 @@
-Burada eğitimin PDF yansıları avrdır.
+Burada eğitimin PDF yansıları vardır.
