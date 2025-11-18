@@ -7,7 +7,7 @@ For further assistance and suggestions, please reach me at akin@javaturk.org.)
 Bu, org.javaturk.jp altındaki paketler için konuların listesidir:
 (This is the list of topics for packages under org.javaturk.jp:)
 
-* 01 - Java Geliştirme Ortamı (Java Development Environment)
+* 01 - Java Geliştirme Ortamı (Java Development Environment) 
 * 02 - Java'ya Giriş (Introduction to Java)
 * 03 - Java'nın Temelleri (Fundamentals of Java)
 * 04 - Kaynak Kod Yapısı (Source Code Structure)
