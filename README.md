@@ -1,13 +1,9 @@
 Bu, BTK Akademi (https://www.btkakademi.gov.tr/) için hazırladığım "Java Programlama Dili" eğitiminin kaynak kodlarıdır.
 Daha fazla yardım ve öneri için lütfen bana akin@javaturk.org adresinden ulaşın.
 
-/This is the source code for the "Java Programming Language" course created for BTK Akademi (https://www.btkakademi.gov.tr/).
-For further assistance and suggestions, please reach me at akin@javaturk.org.)
-
 Bu, org.javaturk.jp altındaki paketler için konuların listesidir:
-(This is the list of topics for packages under org.javaturk.jp:)
 
-* 01 - Java Geliştirme Ortamı (Java Development Environment) 
+* 01 - Java Geliştirme Ortamı (Java Development Environment)  
 * 02 - Java'ya Giriş (Introduction to Java)
 * 03 - Java'nın Temelleri (Fundamentals of Java)
 * 04 - Kaynak Kod Yapısı (Source Code Structure)
@@ -31,10 +27,9 @@ Bu, org.javaturk.jp altındaki paketler için konuların listesidir:
 * 22 - Classpath
 * 23 - Sarmalama ve Bilgi Saklama (Encapsulation and Information Hiding)
 * 24 - enum
-* ex - Bazı uygulamalar için gerekli sınıflar (Some classes needed for some exercises)
-* game - Sayı Tahmin oyunu (NumberGuessing game)
-* hw - Bazı ödevler için gerekli sınıflar (Some classes needed for some homeworks)
-
+* ex - Bazı uygulamalar için gerekli sınıflar 
+* game - Sayı Tahmin oyunu 
+* hw - Bazı ödevler için gerekli sınıflar 
 
 
 
