@@ -1,4 +1,5 @@
-package org.javaturk.ipj.ch04.compact.main;// Exactly the same as Selam.java in ch01
+package org.javaturk.jp.ch04.compact.main;
+// Exactly the same as Selam.java in ch01
 
 public class SimpleSelam {
     public static void main(String[] args) {

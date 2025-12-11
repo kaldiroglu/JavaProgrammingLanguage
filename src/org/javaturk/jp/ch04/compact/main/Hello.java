@@ -1,4 +1,4 @@
-package org.javaturk.ipj.ch04.compact.main;
+package org.javaturk.jp.ch04.compact.main;
 
 public class Hello {
 

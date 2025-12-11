@@ -1,4 +1,4 @@
-package org.javaturk.ipj.ch08;
+package org.javaturk.jp.ch08;
 
 public class UnnamedVariables {
     // int _ = 5; // Unnamed variable not allowed here
