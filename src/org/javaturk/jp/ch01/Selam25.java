@@ -1,3 +1,3 @@
 void main() {
-    IO.println("Selam :) ");
+    IO.println("Selam :)");
 }

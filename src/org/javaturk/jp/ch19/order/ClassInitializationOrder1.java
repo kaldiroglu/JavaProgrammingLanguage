@@ -1,4 +1,4 @@
-package org.javaturk.ioop.ch20.order;
+package org.javaturk.jp.ch19.order;
 
 /**
  * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>

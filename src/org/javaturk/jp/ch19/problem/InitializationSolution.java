@@ -1,4 +1,4 @@
-package org.javaturk.ioop.ch20.problem;
+package org.javaturk.jp.ch19.problem;
 
 import java.time.LocalTime;
 import java.util.Random;

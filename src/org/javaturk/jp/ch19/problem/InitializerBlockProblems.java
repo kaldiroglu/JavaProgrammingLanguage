@@ -1,4 +1,4 @@
-package org.javaturk.ioop.ch20.problem;
+package org.javaturk.jp.ch19.problem;
 
 /**
  * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>

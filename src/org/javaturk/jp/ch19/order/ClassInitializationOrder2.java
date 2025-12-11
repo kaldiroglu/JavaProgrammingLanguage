@@ -1,4 +1,4 @@
-package org.javaturk.ioop.ch20.order;
+package org.javaturk.jp.ch19.order;
 
 public class ClassInitializationOrder2 {
     public static void main(String[] args) {

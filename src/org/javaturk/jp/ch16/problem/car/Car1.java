@@ -1,4 +1,4 @@
-package org.javaturk.ioop.ch17.problem.car;
+package org.javaturk.jp.ch16.problem.car;
 
 public class Car1 {
     public String make;

@@ -1,4 +1,4 @@
-package org.javaturk.ioop.ch17.noArg;
+package org.javaturk.jp.ch16.noArg;
 
 /**
  * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>

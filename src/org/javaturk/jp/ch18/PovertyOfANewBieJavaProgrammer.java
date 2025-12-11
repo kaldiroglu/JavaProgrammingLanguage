@@ -1,4 +1,4 @@
-package org.javaturk.ioop.ch19;
+package org.javaturk.jp.ch18;
 
 public class PovertyOfANewBieJavaProgrammer {
 	int i = 5;

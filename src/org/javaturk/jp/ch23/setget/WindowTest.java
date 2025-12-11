@@ -1,4 +1,4 @@
-package org.javaturk.ioop.ch24.setget;
+package org.javaturk.jp.ch23.setget;
 
 public class WindowTest {
 

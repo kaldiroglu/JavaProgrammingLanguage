@@ -1,5 +1,5 @@
 
-package org.javaturk.ioop.ch24.setget;
+package org.javaturk.jp.ch23.setget;
 
 /**
  * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>

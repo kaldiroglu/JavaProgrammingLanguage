@@ -1,4 +1,4 @@
-package org.javaturk.ioop.ch18.ref.bank;
+package org.javaturk.jp.ch17.ref.bank;
 
 public class Customer {
 	int id;

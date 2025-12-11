@@ -1,4 +1,4 @@
-package org.javaturk.ioop.ch17;
+package org.javaturk.jp.ch16;
 
 import java.time.LocalDate;
 

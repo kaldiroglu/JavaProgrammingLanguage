@@ -1,4 +1,4 @@
-package org.javaturk.ioop.ch20.error;
+package org.javaturk.jp.ch19.error;
 
 public class MightNotHaveBeenInitialized {
 
