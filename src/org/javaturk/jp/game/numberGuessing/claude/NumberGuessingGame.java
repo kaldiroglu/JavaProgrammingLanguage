@@ -1,4 +1,4 @@
-package org.javaturk.ipj.game.numberGuessing.claude;
+package org.javaturk.jp.game.numberGuessing.claude;
 
 /*
  Claude Sonnet 4.0 12062025

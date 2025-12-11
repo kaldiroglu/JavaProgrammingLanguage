@@ -1,4 +1,4 @@
-package org.javaturk.ipj.game.numberGuessing.gemini;
+package org.javaturk.jp.game.numberGuessing.gemini;
 
 /**
  * Gemini 2.5 Pro 12062025
