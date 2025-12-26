@@ -6,7 +6,7 @@ import java.util.Random;
 public class MonteCarloPI {
 	public static void main(String[] args) {
 		int dotsInCircle = 0;
-		System.out.print("Number of points: ");
+		System.out.print("Please enter number of points: ");
 		Scanner in = new Scanner(System.in);
 		int n = in.nextInt();
 

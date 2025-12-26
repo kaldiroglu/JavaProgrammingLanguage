@@ -1,4 +1,4 @@
-package org.javaturk.jp.hw.ch02;//First remove comments below
+//First remove comments below
 /* Remove this line
 
 void calculateSumUsingFormula(int n) {

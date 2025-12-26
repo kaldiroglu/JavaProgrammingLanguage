@@ -6,10 +6,12 @@ public class GreetingTest {
         selamlama.greetingWord = "Selam";
         String cevap = selamlama.greet("Zeynep");
         System.out.println(cevap);
+        System.out.println(selamlama.greetingWord);
 
         Greeting greeting = new Greeting();
         greeting.greetingWord = "Helloooww";
         String answer = greeting.greet("Tom");
         System.out.println(answer);
+        System.out.println(greeting.greetingWord);
     }
 }

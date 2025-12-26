@@ -9,7 +9,7 @@ Run:
 MonteCarloPI.exe
 
 For Python
-Run
+Run:
 python3 MonteCarloPI.py
 
 For other platforms you can use whatever compiler and interpreter for C++ and Python you want.

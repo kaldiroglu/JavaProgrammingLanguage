@@ -1,6 +1,6 @@
 // Can you correct this code so that it can compile and run without any problem?
 // Do not change anything on the following package line.
-package org.javaturk.ipj.hw.ch02;
+package org.javaturk.jp.hw.ch02;
 
 /* Remove this block comment and closing one down the file before correcting the code
 
