@@ -1,5 +1,4 @@
 
-//import java.util.Random;
 import org.javaturk.jp.ch04.compact.Selam;
 import org.javaturk.jp.ch04.compact.Hello;
 

@@ -35,7 +35,6 @@ package org.javaturk.jp.game.numberGuessing.claude;
 
 import java.util.Arrays;
 import java.util.Scanner;
-//import java.util.Random;
 
 public class NumberGuessingGame {
     private static final int DIGITS = 4;

@@ -1,5 +1,4 @@
-
-package org.javaturk.jp.ch03;
+ package org.javaturk.jp.ch03;
 
 /**
  * An example to show how code conventions are applied when naming in a Java class.

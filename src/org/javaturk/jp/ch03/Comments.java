@@ -11,14 +11,16 @@ package org.javaturk.jp.ch03;
  *                                    
  */
 public class Comments {
+	// This way you can
+	// make a block comment
 
 	private String name = "Comments"; // That's just a String.
 
 	/**
-	 * This method calculates the double of passed parameter and returns it.
+	 * This method calculates the double of the passed parameter and returns it.
 	 * 
 	 * @param x		The value to be doubled.
-	 * @return 		Double of the value of x passed as parameter.
+	 * @return 		Double of the value of x passed as a parameter.
 	 */
 	public int doubleIt(int x) {
 		System.out.println("This is name: " + name);

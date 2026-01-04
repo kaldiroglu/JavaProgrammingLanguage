@@ -1,19 +1,22 @@
 package org.javaturk.jp.ch04;
 
+
 public class ValuesOfExpressions {
 
-	public static void main(String[] args) {
-//		int k = 2_147_483_648; // Max limit of an int number in Java is 2_147_483_647
-		int k = 2_147_483_647 + 1; // Max limit of an int number in Java is 2_147_483_647
-//		int k = 2_147_483_647; // Max limit of an int number in Java
+    public static void main(String[] args) {
+        int i = 5; // Constant expression
+        boolean b = i > 0; // Constant expression
+        int j = i + 1; // Constant expression
+        String s = "I love" + " " + " Java"; // Constant expression
 
-		int i = k + 1; // -2147483648
-		System.out.println(i);
+        int k = increaseOne(i); // Not a constant expression
+        System.out.println(k);
 
-		int j = increaseOne(k);
-	}
+        double d = Math.random(); // Not a constant expression
+        System.out.println(d);
+    }
 
-	public static int increaseOne(int k){
-		return k + 1;
-	}
+    public static int increaseOne(int k) {
+        return k + 1;
+    }
 }
