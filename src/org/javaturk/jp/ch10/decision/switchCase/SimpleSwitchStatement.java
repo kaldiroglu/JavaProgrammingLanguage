@@ -2,8 +2,9 @@ package org.javaturk.jp.ch10.decision.switchCase;
 
 public class SimpleSwitchStatement {
     public static void main(String[] args) {
-        long i = 10;
-        switch (1) {
+        int i = 2;
+//        long i = 1; // Problem!
+        switch (i) {
             case 1:
                 System.out.println("i is 1");
                 break;

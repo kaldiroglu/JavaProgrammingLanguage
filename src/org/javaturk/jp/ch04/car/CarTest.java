@@ -17,7 +17,7 @@ public class CarTest {
 		System.out.println("When the car stands still.");
 		car1.make = "Mercedes";
 		car1.model = "C200";
-		car1.year = "2023";
+		car1.year = "2026";
 		car1.distance = 0;
 		car1.speed = 0;
 		String info = car1.getInfo();

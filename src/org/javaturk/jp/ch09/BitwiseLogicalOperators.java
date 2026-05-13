@@ -1,20 +1,11 @@
 package org.javaturk.jp.ch09;
 
-/**
- * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>
- *         <p>
- *         For more info please
- * @see <a href="http://www.javaturk.org">http://www.javaturk.org</a>
- * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
- *      </p>
- *      This is an example that shows bitwise logical operators.
- */
 public class BitwiseLogicalOperators {
 
 	public static void main(String[] args) {
 		
-		int i = 4; // 0100
-		int j = 8; // 1000
+		int i = 7; // 0100
+		int j = 4; // 1000
 		
 		int k = i & j;
 		System.out.println(i + " & " + j + " = " + k);
@@ -32,6 +23,12 @@ public class BitwiseLogicalOperators {
 		System.out.println(i + " ^ " + j + " = " + k);
 		System.out.println(getBinary(i) + " & " + getBinary(j) + " = " + getBinary(k));
 		
+		System.out.println();
+
+		k = ~ i;
+		System.out.println(" ~ " + i + " = " + k);
+		System.out.println("~ " + getBinary(i) + " = " + getBinary(k));
+
 		System.out.println();
 		
 		long u = 6; // 0110

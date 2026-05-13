@@ -12,13 +12,14 @@ package org.javaturk.jp.ch09;
 public class ShiftOperators {
 
 	public static void main(String[] args) {
-		makePositiveShifts();
+//		makePositiveShifts();
 //		makeNegativeShifts();
-//		makeUnsignedShifts();
+		makeUnsignedShifts();
 //		shiftCircular();
 	}
 
 	private static void makePositiveShifts() {
+		System.out.println("\n*** makePositiveShifts() ***");
 		int i = 1; // 0000 0000 0000 0001
 		System.out.println("i:         " + i + "    Binary: " + BitwiseLogicalOperators.getBinary(i));
 		i = i << 1; // 0000 0000 0000 0010
@@ -42,6 +43,7 @@ public class ShiftOperators {
 	}
 	
 	private static void makeNegativeShifts() {
+		System.out.println("\n*** makeNegativeShifts() ***");
 		int i = -1; // 0000 0000 0000 0001
 		System.out.println("i:         " + i + "    Binary: " + BitwiseLogicalOperators.getBinary(i));
 		i = i << 1; // 0000 0000 0000 0010
@@ -55,6 +57,7 @@ public class ShiftOperators {
 	}
 	
 	private static void makeUnsignedShifts() {
+		System.out.println("\n*** makeUnsignedShifts() ***");
 		int i = 64; 
 		System.out.println("i:         " + i + "    Binary: " + BitwiseLogicalOperators.getBinary(i));
 		i = i >>> 5; 
@@ -64,10 +67,15 @@ public class ShiftOperators {
 		System.out.println("i:        " + i + "    Binary: " + BitwiseLogicalOperators.getBinary(i));
 		i = i >>> 5; 
 		System.out.println("i >>> 5:  " + i + "    Binary: " + BitwiseLogicalOperators.getBinary(i));
+
+		int z = 1;
+		int zz = z >>> 1;
+		System.out.println("zz: " + zz);
+
 	}
 	
 	public static void shiftCircular() {
-		System.out.println("\nShifting Circular");
+		System.out.println("\nshiftCircular");
 		int i = 64; 
 		System.out.println("i:         " + i + "    Binary: " + BitwiseLogicalOperators.getBinary(i));
 		i = i >> 5; 

@@ -1,4 +1,4 @@
-package org.javaturk.jp.ch10.loop;
+package org.javaturk.jp.ch10.decision.ifElse;
 
 /**
  * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>
@@ -12,10 +12,9 @@ package org.javaturk.jp.ch10.loop;
 public class ListCharactersWithIf {
 
 	public static void main(String[] args) {
-
-		for (char c = 0; c < 65535; c++) {
+		for (char c = 0; c < 65535; c++) { // What happens if you change it to c <= 65535
 			System.out.print("\t" + (int) c + " : " + c);
-			if (c % 10 == 0 & c != 0 & c != 10)
+			if (c % 10 == 0 && c != 0 && c != 10)
 				System.out.print("\n");
 		}
 	}

@@ -1,22 +1,10 @@
 package org.javaturk.jp.ch10.decision.ifElse;
 
-/**
- * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>
- *         <p>
- *         For more info please
- * @see <a href="http://www.javaturk.org">http://www.javaturk.org</a>
- * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
- *      </p>
- *      This is an example about unary operators.
- */
 public class IfElseDemo {
-    
-    /**
-     * @param args
-     */
+
     public static void main(String[] args) {
     	
-        int score = 57;
+        int score = 87; // And try with 57
         
         char grade;
 
@@ -33,13 +21,13 @@ public class IfElseDemo {
             grade = 'F';
         }
         System.out.println("Your grade is " + grade);
-        
-//        if(grade < 'C')
-//        	System.out.println("👏👏👏");
-//
-        if(grade == 'A' | grade == 'B')
+
+        if(grade == 'A' || grade == 'B')
         	System.out.println("👏👏👏👏👏👏");
-//
+
+        if(grade < 'D')
+            System.out.println("👏");
+
         if(grade == 'F')
         	System.out.println("😩");
     } 

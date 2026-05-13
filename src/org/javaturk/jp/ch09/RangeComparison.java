@@ -10,7 +10,7 @@ package org.javaturk.jp.ch09;
  *      </p>
  *      This is an example about unary operators.
  */
-public class RangeComparision {
+public class RangeComparison {
 
 	public static void main(String[] args) {
 		int i = 5;

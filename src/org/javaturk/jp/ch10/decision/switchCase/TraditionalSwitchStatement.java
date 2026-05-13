@@ -12,6 +12,7 @@ public class TraditionalSwitchStatement {
 //        switchDemo1(month);
 //        switchDemo2(month);
 //        switchDemo3(month);
+
     }
 
     public static void switchDemo1(int month) {//throws Exception {

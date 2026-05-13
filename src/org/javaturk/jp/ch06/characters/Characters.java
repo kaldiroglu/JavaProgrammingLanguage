@@ -31,8 +31,28 @@ public class Characters {
 
 		System.out.println("\uD83D\uDE1D");
 
-		// Negative int to char
-		ch = (char) -65471; // A
+		System.out.println();
+
+//		char cc = -1;
+
+		// Negative int to char using a cast operator
+		ch = (char) -65471; //A, -65471 + 65536 = 65
 		System.out.println("Character: " + ch + " its numeric value: " + (int)ch);
+
+		int i = -65471 + 65536;
+		System.out.println("i: " + i);
+
+		// Bigger than 65535 int to char
+		ch = (char) 65601; // A, 65601 - 65536 = 65
+		System.out.println("Character: " + ch + " its numeric value: " + (int)ch);
+		i = 65601 - 65536;
+		System.out.println("i: " + i);
+
+		ch = (char) 655450; // Z, 655450 - 10 * 65536 = 90
+		System.out.println("Character: " + ch + " its numeric value: " + (int)ch);
+		i = 655450 - 10 * 65536;
+		System.out.println("i: " + i);
+
+
 	}
 }
