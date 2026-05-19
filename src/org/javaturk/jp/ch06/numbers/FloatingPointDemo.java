@@ -3,9 +3,9 @@ package org.javaturk.jp.ch06.numbers;
 public class FloatingPointDemo {
 
     public static void main(String[] args) {
-//        ranges();
+        ranges();
 //        calculate1();
-        calculate2();
+//        calculate2();
     }
 
     static void ranges() {
