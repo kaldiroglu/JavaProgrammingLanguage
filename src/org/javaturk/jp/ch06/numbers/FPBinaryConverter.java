@@ -47,7 +47,7 @@ public class FPBinaryConverter {
             }
         }
 
-        return sign + intBinary + (fracBinary.length() == 0 ? ".0" : fracBinary.toString());
+        return sign + intBinary + (fracBinary.isEmpty() ? ".0" : fracBinary.toString());
     }
 
     // Correctly padded 32-bit representation
