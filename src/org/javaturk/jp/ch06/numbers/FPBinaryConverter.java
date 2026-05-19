@@ -3,6 +3,7 @@ package org.javaturk.jp.ch06.numbers;
 public class FPBinaryConverter {
     public static void main(String[] args) {
         printBinary(1.0);
+        printBinary(0.625);
         // Use 0.1 to see the infinite repeating pattern differences
         printBinary(0.1);
         printBinary(1.0/3.0);
