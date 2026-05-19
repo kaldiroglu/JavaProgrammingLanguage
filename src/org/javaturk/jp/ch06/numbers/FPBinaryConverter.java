@@ -2,7 +2,7 @@ package org.javaturk.jp.ch06.numbers;
 
 public class FPBinaryConverter {
     public static void main(String[] args) {
-        printBinary(0.625);
+        printBinary(1.0);
         // Use 0.1 to see the infinite repeating pattern differences
         printBinary(0.1);
         printBinary(1.0/3.0);
@@ -12,27 +12,42 @@ public class FPBinaryConverter {
         System.out.println("\nDecimal Value: " + number);
 
         // 1. Show the MATH (Successive Multiplication)
-        System.out.println("Manual (32 iterations):   " + toManualFraction(number, 32));
-        System.out.println("Manual (64 iterations):   " + toManualFraction(number, 64));
+        System.out.println("Manual (32 iterations):   " + toManualBinary(number, 32));
+        System.out.println("Manual (64 iterations):   " + toManualBinary(number, 64));
 
         // 2. Show the HARDWARE (IEEE 754 Standard)
         System.out.println("IEEE 754 (32-bit Float):  " + toLibrary32((float) number));
         System.out.println("IEEE 754 (64-bit Double): " + toLibrary64(number));
     }
 
-    // This calculates the 0.00011... representation
-    static String toManualFraction(double number, int precision) {
-        StringBuilder sb = new StringBuilder("0.");
-        double fraction = number;
+    public static String toManualBinary(double number, int precision) {
+        // 1. Handle the sign
+        String sign = (number < 0) ? "-" : "";
+        double absNumber = Math.abs(number);
 
-        for (int i = 0; i < precision; i++) {
-            fraction *= 2;
-            int bit = (int) fraction;
-            sb.append(bit);
-            fraction -= bit;
-            if (fraction == 0) break;
+        // 2. Separate Integer and Fractional parts
+        long integerPart = (long) absNumber;
+        double fractionalPart = absNumber - integerPart;
+
+        // 3. Convert Integer Part (Whole numbers)
+        String intBinary = Long.toBinaryString(integerPart);
+
+        // 4. Convert Fractional Part (Successive Multiplication)
+        StringBuilder fracBinary = new StringBuilder();
+        if (fractionalPart > 0 || precision > 0) {
+            fracBinary.append(".");
+            // Loop runs for the number of 'precision' steps you requested
+            for (int i = 0; i < precision; i++) {
+                fractionalPart *= 2;
+                int bit = (int) fractionalPart;
+                fracBinary.append(bit);
+                fractionalPart -= bit;
+
+                if (fractionalPart == 0) break; // Terminate early if the math is clean
+            }
         }
-        return sb.toString();
+
+        return sign + intBinary + (fracBinary.length() == 0 ? ".0" : fracBinary.toString());
     }
 
     // Correctly padded 32-bit representation
