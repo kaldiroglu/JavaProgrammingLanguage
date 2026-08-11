@@ -19,7 +19,7 @@ public class CarReferences {
 		car1.year = "2023";
 		car1.distance = 0;
 		car1.speed = 0;
-		System.out.println("car1:   " + car1.getInfo());
+		System.out.println("\ncar1:   " + car1.getInfo());
 		
 		Car car2 = new Car();
 		car2.make = "BMW";
@@ -50,13 +50,13 @@ public class CarReferences {
 		System.out.println("tmpCar: " + tmpCar.getInfo());
 
 		car1 = null;
-//		System.out.println(car1.getInfo());
-//		car1.accelerate(150);
+//		System.out.println(car1.getInfo()); // Trouble!
+//		car1.accelerate(150); // Trouble!
 
 		if(car1 != null)
 			System.out.println("\ncar1:   " + car1.getInfo());
 		else
-			System.out.println("It is a null reference!");
+			System.out.println("\nIt is a null reference!");
 		
 //		tmpCar.accelerate(150);
 //		tmpCar.go(50);
@@ -78,7 +78,7 @@ public class CarReferences {
 		if(myBMW != null)
 			myBMW.accelerate(200);
 		else
-			System.out.println("Null kardeşim!");
+			System.out.println("Null!!");
 	}
 }
 

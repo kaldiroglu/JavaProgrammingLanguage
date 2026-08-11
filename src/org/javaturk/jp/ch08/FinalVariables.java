@@ -48,5 +48,8 @@ public class FinalVariables {
 		final Car c2; // Blank final
 		c2 = new Car();
 //		c2 = new Car();
+
+//		Car c4 = null;
+//		c1 = c4;
 	}
 }
