@@ -5,7 +5,6 @@ public class ForDemo {
     public static void main(String[] args) {
 //        simpleFor();
 //        multiplicationTable();
-//        fibonacciNumbers(40);
 //		  others();
     }
 
@@ -27,25 +26,6 @@ public class ForDemo {
                 System.out.format("%4d", i * j);
             }
             System.out.println();
-        }
-    }
-
-    static void fibonacciNumbers(int count) {
-        System.out.println("\nFibonacci Numbers");
-
-        int f0 = 1;
-        int f1 = 1;
-        int fibonacciNumber;
-
-        System.out.format("%8d", f0);
-        System.out.format("%8d", f1);
-        for (int i = 3; i <= count; i++) {
-            fibonacciNumber = f0 + f1;
-            System.out.format("%12d", fibonacciNumber);
-            f0 = f1;
-            f1 = fibonacciNumber;
-            if (i % 10 == 0)
-                System.out.println();
         }
     }
 
