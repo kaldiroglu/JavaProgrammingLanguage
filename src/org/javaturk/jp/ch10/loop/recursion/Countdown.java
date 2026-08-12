@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch10.loop.recursion;
 
-public class Coundown {
+public class Countdown {
 
 	public static void main(String[] args) {
 		int n = 10;

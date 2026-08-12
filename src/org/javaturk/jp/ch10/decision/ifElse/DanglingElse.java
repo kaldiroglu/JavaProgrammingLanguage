@@ -15,11 +15,5 @@ public class DanglingElse {
 			System.out.println("i is not greater than j.");
 		
 		System.out.println("i: " + i + " j: " + j);
-		
-		boolean b1;
-		boolean b2;
-		
-		b1 = (b2 = true);
-		System.out.println(b1);
 	}
 }
