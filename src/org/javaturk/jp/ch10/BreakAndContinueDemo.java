@@ -8,7 +8,7 @@ package org.javaturk.jp.ch10;
  * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
  *      </p>
  */
-public class BreakAndContinue {
+public class BreakAndContinueDemo {
 	public static void main(String args[]) {
 		
 		System.out.println("break\n");
