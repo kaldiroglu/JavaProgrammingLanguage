@@ -9,7 +9,7 @@ package org.javaturk.jp.ch10;
  * </p>
  * This is an example that shows arithmetic promotions made in operators.
  */
-public class BreakAndContinueWithLabel {
+public class BreakAndContinueWithLabelDemo {
 
     public static void main(String[] args) {
         int[][] array = { {32, 87, 3, 589, 7, 912, 617},

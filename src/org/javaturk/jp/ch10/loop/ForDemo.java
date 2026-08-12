@@ -1,21 +1,12 @@
 package org.javaturk.jp.ch10.loop;
 
-/**
- * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>
- * <p>
- * For more info please
- * @see <a href="http://www.javaturk.org">http://www.javaturk.org</a>
- * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
- * </p>
- * This is an example about unary operators.
- */
 public class ForDemo {
 
     public static void main(String[] args) {
 //        simpleFor();
 //        multiplicationTable();
 //        fibonacciNumbers(40);
-		others();
+//		  others();
     }
 
     static void simpleFor() {
@@ -95,26 +86,8 @@ public class ForDemo {
             System.out.println(">>>>> k: " + k);
         }
 
-        // Dangerous!
+        // Dangerous! Infinite loop!
 //        for(;;)
 //            System.out.println("***********");
-
-        // Following for is ok but causes dead code.
-//		int i = 0;
-//		for (;;) {
-//			System.out.println(i);
-//			if (true)
-//				break;
-//			i++; // This is dead code.
-//		}
-
-//		double r = Math.random();
-//        System.out.println("r: " + r);
-//        for (;;) {
-//        	double r = Math.random();
-//        	if(r < 0.8d)
-//        		break;
-//        	System.out.println(r);
-//        }
     }
 }
