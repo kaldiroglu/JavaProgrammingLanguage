@@ -1,4 +1,4 @@
-package org.javaturk.jp.ch13.car;
+package org.javaturk.jp.ch12;
 
 public class Test {
 
