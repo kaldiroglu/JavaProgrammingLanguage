@@ -1,9 +1,9 @@
-package org.javaturk.jp.ch13.circle.circle1;
+package org.javaturk.jp.hw.ch12.circle.circle2;
 
 public class CircleTest {
 
     public static void main(String[] args) {
-        System.out.println("Circle Example - 1\n");
+        System.out.println("Circle Example - 2\n");
 
         Circle c = new Circle();
 

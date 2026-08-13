@@ -1,4 +1,4 @@
-package org.javaturk.jp.ch13.circle.circle1;
+package org.javaturk.jp.hw.ch12.circle.circle2;
 
 public class Circle {
 
