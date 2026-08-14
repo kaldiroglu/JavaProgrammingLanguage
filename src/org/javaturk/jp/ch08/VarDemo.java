@@ -1,7 +1,5 @@
 package org.javaturk.jp.ch08;
 
-import org.javaturk.jp.ch07.car.Car;
-
 import java.util.Date;
  
 public class VarDemo {
