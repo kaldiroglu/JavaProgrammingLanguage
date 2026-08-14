@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch08;
 
-public class CarTest {
+ class CarTest {
 
 	public static void main(String[] args) {
 		Car car1 = new Car();
