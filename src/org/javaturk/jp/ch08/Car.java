@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch08;
 
-public class Car{
+ class Car{
 	 String make;
 	 String model;
 	 String year;
