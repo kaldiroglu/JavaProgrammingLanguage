@@ -24,8 +24,8 @@ class Calculator {
 	}
 
 	 int multiply(int first, int second) {
-		int sonuc =  first * second;
-		return sonuc;
+		int result =  first * second;
+		return result;
 	}
 	
 	 int multiplyByAdding(int first, int second) {
