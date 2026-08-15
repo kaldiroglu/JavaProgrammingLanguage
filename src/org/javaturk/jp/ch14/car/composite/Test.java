@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch14.car.composite;
 
- class Test {
+class Test {
 
 	public static void main(String[] args) {
 		Person zeynep = new Person();

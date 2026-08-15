@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch14.university;
 
- class Test {
+class Test {
 
 	public static void main(String[] args) {
 		Department department1 = new Department();

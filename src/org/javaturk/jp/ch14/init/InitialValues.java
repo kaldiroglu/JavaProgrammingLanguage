@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch14.init;
 
- class InitialValues {
+class InitialValues {
 	// Instance variables
     boolean t;	// false
     char c;		// 0
