@@ -10,19 +10,19 @@ class Car {
 	// Owner of the car
 	Person owner;
 	
-	public void go(int newDistance){
+	 void go(int newDistance){
 		distance += newDistance;
 	}
 	
-	public void accelerate(int newSpeed){
+	 void accelerate(int newSpeed){
 		speed = newSpeed;
 	}
 	
-	public void stop(){
+	 void stop(){
 		speed = 0;
 	}
 	
-	public String getInfo(){
+	 String getInfo(){
 		String info = "Car Info: " + year + " " + make + " " + model + ". Distance: " + distance + " km. and traveling at " + speed + " kmph.";
 		if(owner != null)
 			info += " And its owner is " + owner.firstName + " " + owner.lastName;

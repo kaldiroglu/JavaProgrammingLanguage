@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch13;
 
-public class Book {
+class Book {
 
     String title;
     String author;

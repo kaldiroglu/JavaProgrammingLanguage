@@ -8,7 +8,7 @@ class Person {
 	// Car of the person
 	Car vehicle;
 	
-	public String getInfo(){
+	 String getInfo(){
 		String info = "Person Info: " + tckn + " " + firstName + " " + lastName;
 		if( vehicle != null)
 				info += " and has a car: " + vehicle.getInfo();
