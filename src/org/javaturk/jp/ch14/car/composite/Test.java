@@ -13,7 +13,7 @@ package org.javaturk.jp.ch14.car.composite;
 		mercedes.model = "E200";
 		mercedes.year = "2011";
 		mercedes.speed = 80;
-		mercedes.distance = 130_000;
+		mercedes.distance = 30_000;
 		
 		System.out.println(mercedes.getInfo());
 		System.out.println(zeynep.getInfo());
