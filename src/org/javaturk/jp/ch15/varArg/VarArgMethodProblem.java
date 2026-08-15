@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch15.varArg;
 
-public class VarArgMethodProblem {
+class VarArgMethodProblem {
     public static void main(String[] args) {
         int a[] = {2, 3};
 //		f(1, a); // Problem for f(int ... args)

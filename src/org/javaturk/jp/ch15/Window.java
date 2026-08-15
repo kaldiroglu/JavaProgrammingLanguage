@@ -1,38 +1,30 @@
 package org.javaturk.jp.ch15;
 
-/**
- * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>
- *         <p>
- *         For more info please
- * @see <a href="http://www.javaturk.org">http://www.javaturk.org</a>
- * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
- *      </p>
- */
-public class Window {
+class Window {
 	boolean open;
 	int width;
 
-	public boolean isOpen() {
+	 boolean isOpen() {
 		return open;
 	}
 
-	public void setOpen(boolean open) {
+	 void setOpen(boolean open) {
 		this.open = open;
 	}
 
-	public int getWidth() {
+	 int getWidth() {
 		return width;
 	}
 
-	public void setWidth(int width) {
+	 void setWidth(int width) {
 		this.width = width;
 	}
 
-	public void open(){
+	 void open(){
 		open = true;
 	}
 	
-	public void close(){
+	 void close(){
 		open = false;
 	}
 	

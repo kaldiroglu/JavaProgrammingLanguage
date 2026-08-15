@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch15.constant;
 
-public class FinalParameter {
+class FinalParameter {
 
 	public static void main(String[] args) {
 //		Car is a final reference
