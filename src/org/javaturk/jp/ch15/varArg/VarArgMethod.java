@@ -14,7 +14,7 @@ class VarArgMethod {
 		int b[] = { 15, 25, 35, 45, 55, 65, 75, 86 };
 		calculateAverageWithArray(b);
 
-		average(); // Calls with no argument
+		average(); // Calls with no argument, NaN if the length is not checked!
 		average(1);
 		average(1, 2, 3, 4);
 		average(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
@@ -31,11 +31,13 @@ class VarArgMethod {
 
 	// Method with three arguments and goes on!
 	public static void calculateAverage(int x, int y, int z) {
-		System.out.println("Average: " + (double) (x + y + z) / 2);
+		System.out.println("Average: " + (double) (x + y + z) / 3);
 	}
 
 	// Method with array arguments. But it needs to be called by providing an array
 	public static void calculateAverageWithArray(int[] array) {
+		if(array.length == 0)
+			System.out.println("Average: " + 0);
 		int sum = 0;
 		int i = 0;
 		for (int x : array) {
@@ -47,6 +49,8 @@ class VarArgMethod {
 
 	// That's the solutions.
 	public static void average(int ... array) {
+		if(array.length == 0)
+			System.out.println("Average: " + 0);
 		int sum = 0;
 		int i = 0;
 		for (int x : array) {
@@ -58,6 +62,8 @@ class VarArgMethod {
 	}
 
 	public static void anotherAverage(int y, boolean b, int... array) {
+		if(array.length == 0)
+			System.out.println("Average: " + 0);
 		int sum = 0;
 		int i = 0;
 		if (b)
