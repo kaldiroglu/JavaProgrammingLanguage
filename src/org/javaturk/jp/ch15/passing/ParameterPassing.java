@@ -2,11 +2,11 @@ package org.javaturk.jp.ch15.passing;
 
 class ParameterPassing {
 
-	public void f(A aa) { // aa = a
+	 void f(A aa) { // aa = a
 		aa.i++;
 	}
 
-	public void f(int j) {  // j = i
+	 void f(int j) {  // j = i
 		j++;
 	}
 

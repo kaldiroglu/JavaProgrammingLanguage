@@ -25,17 +25,17 @@ class VarArgMethod {
 	}
 
 	// Method with two arguments
-	public static void calculateAverage(int x, int y) {
+	 static void calculateAverage(int x, int y) {
 		System.out.println("Average: " + (double) (x + y) / 2);
 	}
 
 	// Method with three arguments and goes on!
-	public static void calculateAverage(int x, int y, int z) {
+	 static void calculateAverage(int x, int y, int z) {
 		System.out.println("Average: " + (double) (x + y + z) / 3);
 	}
 
 	// Method with array arguments. But it needs to be called by providing an array
-	public static void calculateAverageWithArray(int[] array) {
+	 static void calculateAverageWithArray(int[] array) {
 		if(array.length == 0)
 			System.out.println("Average: " + 0);
 		int sum = 0;
@@ -48,7 +48,7 @@ class VarArgMethod {
 	}
 
 	// That's the solutions.
-	public static void average(int ... array) {
+	 static void average(int ... array) {
 		if(array.length == 0)
 			System.out.println("Average: " + 0);
 		int sum = 0;
@@ -61,7 +61,7 @@ class VarArgMethod {
 		System.out.println("Average: " + (double) sum / i);
 	}
 
-	public static void anotherAverage(int y, boolean b, int... array) {
+	 static void anotherAverage(int y, boolean b, int... array) {
 		if(array.length == 0)
 			System.out.println("Average: " + 0);
 		int sum = 0;

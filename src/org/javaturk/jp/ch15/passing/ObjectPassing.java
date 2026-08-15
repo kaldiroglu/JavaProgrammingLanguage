@@ -12,7 +12,7 @@ class ObjectPassing {
 		System.out.println("i of w is " + w.i + "  and b of w is " + w.b);
 	}
 
-	public void f(W objectW) { // objectW = w
+	 void f(W objectW) { // objectW = w
 		objectW.i = 5;
 		objectW.b = true;
 		

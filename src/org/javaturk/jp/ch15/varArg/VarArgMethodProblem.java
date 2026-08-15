@@ -13,10 +13,10 @@ class VarArgMethodProblem {
 
         f(4, 5);
 
-		f(4, 5, 6);
+        f(4, 5, 6);
 
-        int[] array = {1, 2,3};
-        wrongAverage3(array, 1,2,3);
+        int[] array = {1, 2, 3};
+        wrongAverage3(array, 1, 2, 3);
     }
 
 //    public static void wrongAverage1(int... array, int y, boolean b,) {
@@ -27,11 +27,11 @@ class VarArgMethodProblem {
 //
 //	}
 
-    public static void wrongAverage3(int[] intArray1, int ... intArray2) {
+    static void wrongAverage3(int[] intArray1, int... intArray2) {
         System.out.println("wrongAverage3");
-	}
+    }
 
-    public static void f(int ... args) {
+    static void f(int... args) {
         System.out.println("f(int ... args)");
     }
 
