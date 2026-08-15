@@ -20,7 +20,7 @@ public class Test {
 
 		myCar.make = "Mercedes";
 		myCar.model = "E200";
-		myCar.year = "2011";
+		myCar.year = "2019";
 		myCar.speed = 80;
 		myCar.distance = 30_000;	
 
@@ -29,9 +29,9 @@ public class Test {
 		Car yourCar = new Car();
 		yourCar.make = "Toyota";
 		yourCar.model = "Camry";
-		yourCar.year = "2011";
+		yourCar.year = "2019";
 		yourCar.speed = 0;
-		yourCar.distance = 160_000;
+		yourCar.distance = 60_000;
 		System.out.println("Your Car: " + yourCar.year + " " + yourCar.make + " " + yourCar.model + " " +  yourCar.speed  + " " + yourCar.distance);
 
 		System.out.println();
