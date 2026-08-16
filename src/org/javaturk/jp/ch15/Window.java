@@ -8,16 +8,16 @@ class Window {
         return open;
     }
 
-    void setOpen(boolean open) {
-        this.open = open;
+    void setOpen(boolean newOpen) {
+        open = newOpen;
     }
 
     int getWidth() {
         return width;
     }
 
-    void setWidth(int width) {
-        this.width = width;
+    void setWidth(int newWidth) {
+        width = newWidth;
     }
 
     void open() {
