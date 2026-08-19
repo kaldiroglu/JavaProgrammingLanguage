@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch08;
 
-public class FinalVariables {
+ class FinalVariables {
 
 	public static void main(String[] args) {
 

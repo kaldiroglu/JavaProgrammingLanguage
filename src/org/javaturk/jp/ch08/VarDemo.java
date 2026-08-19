@@ -2,7 +2,7 @@ package org.javaturk.jp.ch08;
 
 import java.util.Date;
  
-public class VarDemo {
+class VarDemo {
 
 //	  var m = 10; // Hata: 'var' is not allowed here
 //	 private static var b = true;

@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch08;
 
-public class UnnamedVariables {
+class UnnamedVariables {
     // int _ = 5; // Unnamed variable not allowed here
 
     void main(String[] ___) {

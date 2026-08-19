@@ -40,7 +40,7 @@ class CarReferences {
 		System.out.println("\ncar2:   " + car2.getInfo());
 		System.out.println("tmpCar: " + tmpCar.getInfo());
 
-		car1 = null;
+//		car1 = null;
 //		System.out.println(car1.getInfo()); // Trouble!
 //		car1.accelerate(150); // Trouble!
 
@@ -48,22 +48,24 @@ class CarReferences {
 			System.out.println("\ncar1:   " + car1.getInfo());
 		else
 			System.out.println("\nIt is a null reference!");
-		
-//		tmpCar.accelerate(150);
-//		tmpCar.go(50);
-//		
-//		car1 = null;
-////		car1.accelerate(150);
-////		car1.go(50);
-//		System.out.println("tmpCar: " + tmpCar.getInfo());
-//		
-//		tmpCar = new Car();
-//		tmpCar.go(100);
-//		tmpCar.accelerate(80);
-//		System.out.println("tmpCar: " + tmpCar.getInfo());
+
+		car2 = null;
+//		System.out.println(car2.getInfo()); // Trouble!
+
+		tmpCar.accelerate(150);
+		tmpCar.go(50);
+		System.out.println(tmpCar.getInfo());
+
+		tmpCar = null; // Mercedes will be a lost object, garbage collected.
+
+		tmpCar = new Car();
+		tmpCar.go(100);
+		tmpCar.accelerate(80);
+		System.out.println("tmpCar: " + tmpCar.getInfo());
 		
 		CarFactory bmwCF = new CarFactory();
 		Car myBMW = bmwCF.getMeACar();
+		System.out.println("myBMW: " + myBMW); // No exception is thrown!
 //		myBMW.go(150);
 
 		if(myBMW != null)

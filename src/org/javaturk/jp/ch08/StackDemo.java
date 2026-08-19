@@ -3,7 +3,7 @@ package org.javaturk.jp.ch08;
 import java.util.Arrays;
 import java.util.function.Predicate;
 
-public class StackDemo {
+class StackDemo {
 	private static String[] methods = { "f", "g", "main", "u" }; // Must be sorted for Array.binarySearch to work
 															     // correctly.
 	private static int uCallCount;

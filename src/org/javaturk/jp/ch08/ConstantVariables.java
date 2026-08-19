@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch08;
 
-public class ConstantVariables {
+ class ConstantVariables {
 
 	public static void main(String[] args) {
 

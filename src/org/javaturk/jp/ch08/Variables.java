@@ -26,8 +26,8 @@ public class Variables {
 		// Initializing a variable
 		i = 8;
 		b = false;
-		s1 = new String("JavaTurk.org");
-//		s1 = null;
+//		s1 = new String("JavaTurk.org");
+		s1 = null;
 
 		// Only after they are defined can we use them!
 		System.out.println("i: " + i + "\t b:" + b + "\t s1: " + s1);
