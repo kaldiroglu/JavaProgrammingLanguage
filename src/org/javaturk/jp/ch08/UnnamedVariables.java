@@ -20,5 +20,6 @@ class UnnamedVariables {
 
         String _ = "";
         String _ = "java";
+        var _ = 0; // An unnamed variable can be defined using var
     }
 }

@@ -33,7 +33,10 @@ package org.javaturk.jp.ch08;
 		
 		final Car c1 = new Car();
 		//c1 = new Car();
+//		c1 = null;
 		Car c3 = c1;
+		c1.speed = 100;
+		c1.speed = 20;
 
 		final Car c2; // Blank final
 		c2 = new Car();

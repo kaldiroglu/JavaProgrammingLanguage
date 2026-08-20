@@ -8,8 +8,9 @@ class ScopeDemo {
 
 	public static void main(String[] args) {
 		int i = 0;
-		String ij;
+		String ij = "Java";
 		System.out.println(i);
+		System.out.println(ij);
 //		int i = 2;  // Duplicated variable
 //		int ii;
 		for (; i < 5; i++) {
@@ -28,13 +29,14 @@ class ScopeDemo {
 				f(ii);
 			}
 			int ii = 11;
+			System.out.println(ii);
 		}
 	}
 
 	public static void f(int i) {
 		// Can't say this.
-//		 int i = 4;
-		//int k = 0;
+//		 int i = 4; // A parameter with the same name is passed
+//		int k = 0;
 		{
 			int k = 7;
 			System.out.println(i);
@@ -52,6 +54,7 @@ class ScopeDemo {
 	public void ff() {
 		int i = 6;
 		System.out.println(i);
+		System.out.println(ij);;
 	}
 
 	/**
@@ -61,5 +64,6 @@ class ScopeDemo {
 //		int i = j;
 //		int j = 7;
 		System.out.println(i);
+		System.out.println(ij);;
 	}
 }
