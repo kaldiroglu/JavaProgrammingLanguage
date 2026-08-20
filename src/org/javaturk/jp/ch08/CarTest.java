@@ -13,7 +13,9 @@ package org.javaturk.jp.ch08;
 		car1.year = "2025";
 		car1.distance = 0;
 		car1.speed = 0;
-		System.out.println(car1.getInfo());
+
+		String car1Info = car1.getInfo();
+		System.out.println(car1Info);
 
 		System.out.println("\nWhen the car moves.");
 		car1.accelerate(125);
@@ -23,7 +25,9 @@ package org.javaturk.jp.ch08;
 
 		System.out.println("\nWhen the car stops.");
 		car1.stop();
-		System.out.println(car1.getInfo());
+
+		car1Info = car1.getInfo();
+		System.out.println(car1Info);
 
 		System.out.println();
 
@@ -33,11 +37,16 @@ package org.javaturk.jp.ch08;
 		car2.year = "2022";
 		car2.distance = 10_000;
 		car2.speed = 160;
-		System.out.println(car2.getInfo());
+
+		//car2.newDistance = 1000; // Can not reach it! Not part of the Car instance
+
+		String car2Info = car2.getInfo();
+		System.out.println(car2Info);
 
 		car2.accelerate(200);
 		double timeToGo = car2.go(1000);
 		System.out.println("Time to go 1000 km " + timeToGo);
+
 		car2.stop();
 		System.out.println(car2.getInfo());
 	}

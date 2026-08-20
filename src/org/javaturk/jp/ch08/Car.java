@@ -6,6 +6,7 @@ package org.javaturk.jp.ch08;
 	 String year;
 	 int speed;
 	 int distance;
+//	 boolean convertable;
 	
 	 double go(int newDistance) {
 		distance += newDistance;

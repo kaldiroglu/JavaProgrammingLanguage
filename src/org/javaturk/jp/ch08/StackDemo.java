@@ -68,7 +68,7 @@ class StackDemo {
 			if (isInArray.test(methodName))
 				System.out.printf("%-13s %2s\n", methodName, "||");
 		}
-		System.out.println("================");
+		System.out.println("================\n");
 	}
 
 //	public static void main(String[] args) {
