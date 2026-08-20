@@ -3,7 +3,7 @@ package org.javaturk.jp.ch09;
 
 import java.util.Random;
 
-public class RelationalOperators {
+class RelationalOperators {
 
 	public static void main(String[] args) {
 
@@ -37,7 +37,7 @@ public class RelationalOperators {
 
 		System.out.println();
 		
-		boolean b1 = true;
+		boolean b1 = false;
 		boolean b2 = false;
 		if (b1 == b2)
 			prt("Equal");

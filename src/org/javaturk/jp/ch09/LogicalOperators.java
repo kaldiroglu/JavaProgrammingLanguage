@@ -1,7 +1,6 @@
-
 package org.javaturk.jp.ch09;
 
-public class LogicalOperators {
+class LogicalOperators {
 
 	public static void main(String args[]) {
 
@@ -19,7 +18,7 @@ public class LogicalOperators {
 		System.out.println();
 
 		if ((getOne() == 1) & (getTwo() == 2)) {
-			System.out.println("value1 is 1 AND value2 is 2");
+			System.out.println("value1 is 1 AND value2 is 2\n");
 		}
 
 		if ((getOne() == 1) | (getTwo() == 2)) {
