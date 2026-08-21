@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch10.loop;
 
-public class ComplexWhile {
+class ComplexWhile {
 
 	public static void main(String[] args) {
 		System.out.println("First while");
@@ -14,6 +14,12 @@ public class ComplexWhile {
 		System.out.println("\nSecond while");
 
 		while (b = i > j ? true : false) {
+			System.out.println("i: " + i + " j: " + j);
+			i = (int) (10 * Math.random());
+			j = (int) (10 * Math.random());
+		}
+
+		while (i > j) {
 			System.out.println("i: " + i + " j: " + j);
 			i = (int) (10 * Math.random());
 			j = (int) (10 * Math.random());

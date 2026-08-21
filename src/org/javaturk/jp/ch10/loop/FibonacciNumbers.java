@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch10.loop;
 
-public class FibonacciNumbers {
+class FibonacciNumbers {
     public static void main(String[] args) {
         fibonacciNumbers(50);
     }

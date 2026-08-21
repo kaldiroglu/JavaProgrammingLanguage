@@ -1,9 +1,9 @@
 package org.javaturk.jp.ch10.loop;
 
-public class ForDemo {
+class ForDemo {
 
     public static void main(String[] args) {
-//        simpleFor();
+        simpleFor();
 //        multiplicationTable();
 //		  others();
     }
