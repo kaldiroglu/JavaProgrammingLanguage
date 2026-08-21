@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch10.decision.ifElse;
 
-public class IfElseWhile {
+class IfElseWhile {
 
     public static void main(String[] args) {
 
@@ -36,6 +36,5 @@ public class IfElseWhile {
         else for(; i > 0; i--){
             System.out.println(i);
         }
-
     }
 }

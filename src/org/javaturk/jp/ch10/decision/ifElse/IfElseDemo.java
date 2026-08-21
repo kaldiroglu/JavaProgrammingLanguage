@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch10.decision.ifElse;
 
-public class IfElseDemo {
+class IfElseDemo {
 
     public static void main(String[] args) {
     	

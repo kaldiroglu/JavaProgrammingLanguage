@@ -11,13 +11,13 @@ public class TraditionalSwitchStatement {
 
 //        switchDemo1(month);
 //        switchDemo2(month);
-//        switchDemo3(month);
+        switchDemo3(month);
 
     }
 
     public static void switchDemo1(int month) {//throws Exception {
-//            final int i = 1;
-//        final int i = (2 - 1 ) * 1;
+//            final int i = 5;
+//        final int i = (2 - 1 ) * 5;
 //		 final int  i = returnConstant(); // That doesn't work because it is not a constant expression
 //            final int i = 4 * 5 - (3 * 6 + 1);
 
@@ -110,12 +110,15 @@ public class TraditionalSwitchStatement {
      */
     public static void switchDemo3(int month) {
         switch (month) {
+//            default:
+//                System.out.println("Error! Please enter the month number between 1 and 12");
+//                break;
             case 12, 1, 2:
                 System.out.println("Winter");
-//                break;
+                break;
             case 3, 4, 5:
                 System.out.println("Spring");
-//                break;
+                break;
             case 6, 7, 8:
                 System.out.println("Summer");
                 break;
@@ -133,14 +136,19 @@ public class TraditionalSwitchStatement {
         switch(1){
 
         }
+
+        // That's not ok!
+//        switch(null){
+//
+//        }
     }
 
-    static void f() {
-        f();
-    }
+//    static void f() {
+//        f();
+//    }
 
     private static int returnConstant() {
-        return 1;
+        return 5;
     }
 }
 

@@ -1,15 +1,6 @@
 package org.javaturk.jp.ch10.decision;
 
-/**
- * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>
- *         <p>
- *         For more info please
- * @see <a href="http://www.javaturk.org">http://www.javaturk.org</a>
- * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
- *      </p>
- *      This is an example that shows arithmetic promotions made in operators.
- */
-public class TernaryOperatorDemo {
+class TernaryOperatorDemo {
 
 	public static void main(String[] args) {
 		double random = Math.random();
@@ -41,7 +32,7 @@ public class TernaryOperatorDemo {
 		y = (int) (Math.random() * 1000);
 		int z = (int) (Math.random() * 1000);
 		boolean b;
-		System.out.println("x: " + x + " y: " + y + " z: " + z);
+		System.out.println("x:  " + x + " y:  " + y + " z:  " + z);
 		if (b = x < y ? x < z ? true : false : false)
 			System.out.println("x is smaller than both y and z at the same time.");
 		else

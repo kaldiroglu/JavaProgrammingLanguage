@@ -2,12 +2,12 @@ package org.javaturk.jp.ch10.decision.switchCase;
 
 import java.util.Scanner;
 
-public class NewSwitchStatement {
+class NewSwitchStatement {
 
     public static void main(String[] args) {
-        switchCaseWithBreakStatement();
-        switchCaseWithArrowStatement1();
-//        switchCaseWithArrowStatement2();
+//        switchCaseWithBreakStatement();
+//        switchCaseWithArrowStatement1();
+        switchCaseWithArrowStatement2();
     }
 
     /**
@@ -34,7 +34,7 @@ public class NewSwitchStatement {
                 break;
             case 5:
                 System.out.println("May");
-                break;
+//                break;
             case 6:
                 System.out.println("June");
                 break;
@@ -77,6 +77,7 @@ public class NewSwitchStatement {
             }
             case 2 ->
                 System.out.println("February");
+//                System.out.println("February"); // Problem!
             case 3 ->
                 System.out.println("March");
             case 4 ->

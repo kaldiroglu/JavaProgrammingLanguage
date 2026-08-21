@@ -2,21 +2,21 @@ package org.javaturk.jp.ch10.decision.switchCase;
 
 import java.util.Scanner;
 
-public class SwitchExpression {
+class SwitchExpression {
 
     public static void main(String[] args) {
 //        switchWithArrow1();
 //		  switchWithArrow2();
 //        switchWithArrow3();
-//
-//        switchWithYield1();
+
+        switchWithYield1();
 //        switchWithYield2();
 //        switchWithYield3();
     }
 
-	/**
-	 * Expression form of switch-case that came in Java 12. It returns a value and doesn't require break to avoid fallthrough.
-	 */
+    /**
+     * Expression form of switch-case that came in Java 12. It returns a value and doesn't require break to avoid fallthrough.
+     */
     public static void switchWithArrow1() {
         System.out.println("A number for a month :");
         Scanner stdin = new Scanner(System.in);
@@ -37,6 +37,7 @@ public class SwitchExpression {
             case 12 -> "December";
             default -> "Error! Please enter the month number between 1 and 12";
         };
+
         System.out.println(monthInString);
     }
 
@@ -58,23 +59,23 @@ public class SwitchExpression {
         System.out.println("Season is " + season);
     }
 
-	/**
-	 * More than one constant can be used in a case.
-	 */
-	public static void switchWithArrow3() {
-		System.out.println("A number for a day Monday being 1:");
-		Scanner stdin = new Scanner(System.in);
-		int day = stdin.nextInt();
+    /**
+     * More than one constant can be used in a case.
+     */
+    public static void switchWithArrow3() {
+        System.out.println("A number for a day Monday being 1:");
+        Scanner stdin = new Scanner(System.in);
+        int day = stdin.nextInt();
 
-		System.out.print("Number of letters: ");
-		System.out.println("Number of letters: " + switch (day) {
-			case 1, 5, 7 -> 6;
-			case 2 -> "1";
-			case 4, 6 -> 8;
-			case 3 -> 9;
-			//default -> throw new Exception();
+        System.out.print("Number of letters: ");
+        System.out.println("Number of letters: " + switch (day) {
+            case 1, 5, 7 -> 6;
+            case 2 -> "1";
+            case 4, 6 -> 8;
+            case 3 -> 9;
+            //default -> throw new Exception();
             default -> -1;
-		});
+        });
 
         // That's problem!
 //        int ii = 6;
@@ -87,11 +88,11 @@ public class SwitchExpression {
             default -> -1;
         };
         System.out.println(outcome);
-	}
+    }
 
-	/**
-	 * Expression form of switch-case that came in Java 12. It returns a value and doesn't require break to avoid fallthrough.
-	 */
+    /**
+     * Expression form of switch-case that came in Java 12. It returns a value and doesn't require break to avoid fallthrough.
+     */
     public static void switchWithYield1() {
         System.out.println("A number for a month :");
         Scanner stdin = new Scanner(System.in);
@@ -135,7 +136,7 @@ public class SwitchExpression {
 
         String monthInString = switch (month) {
             case 1 -> {
-            	String s = "January";
+                String s = "January";
                 yield s;
             }
             case 2 -> "February";
@@ -250,7 +251,7 @@ public class SwitchExpression {
         System.out.println(monthInString);
     }
 
-    static String returnAMonth(){
+    static String returnAMonth() {
         String monthString = "December";
         System.out.println(monthString);
         return monthString;

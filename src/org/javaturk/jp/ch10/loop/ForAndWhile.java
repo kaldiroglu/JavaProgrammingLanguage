@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch10.loop;
 
-public class ForAndWhile {
+class ForAndWhile {
 
     public static void main(String[] args) {
         double r = Math.random();
@@ -30,5 +30,4 @@ public class ForAndWhile {
                 i = -1;
         }
     }
-
 }
