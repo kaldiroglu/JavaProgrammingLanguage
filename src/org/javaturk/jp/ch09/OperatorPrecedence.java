@@ -3,7 +3,6 @@ package org.javaturk.jp.ch09;
 public class OperatorPrecedence {
 
 	public static void main(String[] args) {
-
 		int a = 6;
 		int b = 5;
 		int c = 10;
@@ -25,9 +24,9 @@ public class OperatorPrecedence {
 		System.out.println("rs :" + rs);
 		System.out.println("b :" + b);
 
-		System.out.println("a: " + a + " b: " + b + " c: " + c);
+		System.out.println("a:  " + a + "  b:  " + b + "  c:  " + c);
 		a += b += c;
-		System.out.println("a: " + a + " b: " + b + " c: " + c);
+		System.out.println("a:  " + a + "  b:  " + b + "  c:  " + c);
 
 		System.out.println();
 
@@ -50,7 +49,7 @@ public class OperatorPrecedence {
 		System.out.println();
 
 		int i = 5;
-//		int k = ++i++;
+//		int k = ++i++;  // Problem!
 		int k = ++i + i++;
 		System.out.println("i: " + i + " k:" + k);
 
@@ -70,10 +69,10 @@ public class OperatorPrecedence {
 
 		// Parameter evaluation
 		String s = "Java";
-		print(s, s = "Javaci", s, ++i);
+		print(s, s = "JavaDev", s, ++i);
 	}
 
 	static void print(String a, String b, String c, int i) {
-		System.out.println(a + " " + b + " " + c);
+		System.out.println(a + " " + b + " " + c + " " + i);
 	}
 }

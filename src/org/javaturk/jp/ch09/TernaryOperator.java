@@ -1,19 +1,6 @@
 package org.javaturk.jp.ch09;
 
-/**
- * This example shows conditional operators & and | and their shortcuts && and
- * ||. See the effects of shortcuts.
- * 
- * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>
- *         <p>
- *         For more info please
- * @see <a href="http://www.javaturk.org">http://www.javaturk.org</a>
- * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
- *      </p>
- *      This is an example about unary operators.
- */
-
-public class TernaryOperator {
+class TernaryOperator {
 
 	public static void main(String args[]) {
 //		basics();
@@ -60,7 +47,7 @@ public class TernaryOperator {
 		if (string1.matches(".*Java.*"))
 			string3 = string1;
 		else
-			string3 = string2;
+//			string3 = string2;
 		System.out.println("String3: " + string3);
 	}
 
@@ -92,7 +79,7 @@ public class TernaryOperator {
 //		y = 200;
 //		z = 300;
 
-		System.out.println("x: " + x + " y: " + y + " z: " + z);
+		System.out.println("x:  " + x + "  y:  " + y + "  z:  " + z);
 
 		b = x < y ? x < z ? true : false : false; // Either x is smaller than both y and z at the same time or x is not smaller than y
 		System.out.println(b);

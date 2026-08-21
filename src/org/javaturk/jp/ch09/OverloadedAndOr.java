@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch09;
 
-public class OverloadedAndOr {
+class OverloadedAndOr {
     public static void main(String[] args) {
         int i = 5, j = 12, k = 28;
         boolean b = (i < j) & (i > k);
