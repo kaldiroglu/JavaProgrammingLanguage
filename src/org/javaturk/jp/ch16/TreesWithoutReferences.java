@@ -1,4 +1,4 @@
-package org.javaturk.jp.ch15;
+package org.javaturk.jp.ch16;
 
 public class TreesWithoutReferences {
 	private String type;
