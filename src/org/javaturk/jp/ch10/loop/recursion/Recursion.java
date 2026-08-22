@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch10.loop.recursion;
 
-public class Recursion {
+class Recursion {
 
     static int counter = 0;
 

@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch10.loop.recursion;
 
-public class Countdown {
+class Countdown {
 
 	public static void main(String[] args) {
 		int n = 10;
@@ -18,7 +18,7 @@ public class Countdown {
 	}
 
 	public static void countdownRecursively(int n) {
-		System.out.println("in countdownRecursively()");
+		System.out.println("in countdownRecursively():  " + n);
 		System.out.println(n);
 		if (n == 0) // Base case
 			return;

@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch10.loop.recursion;
 
-public class Factorial {
+class Factorial {
     static long factorial = 1;
 
     public static void main(String[] args) {

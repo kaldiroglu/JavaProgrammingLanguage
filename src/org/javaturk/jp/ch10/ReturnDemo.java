@@ -1,15 +1,6 @@
 package org.javaturk.jp.ch10;
 
-/**
- * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>
- * <p>
- * For more info please
- * @see <a href="http://www.javaturk.org">http://www.javaturk.org</a>
- * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
- * </p>
- * This is an example that shows arithmetic promotions made in operators.
- */
-public class ReturnDemo {
+class ReturnDemo {
 
     public static void main(String[] args) {
         System.out.println(max1(10, 5));
@@ -29,7 +20,7 @@ public class ReturnDemo {
             return 0; // Match
 
         // Comment out following line
-        //System.out.println("Metot sonu!");
+//        System.out.println("Metot sonu!");
     }
 
     static int max2(int value1, int value2) {
@@ -74,6 +65,10 @@ public class ReturnDemo {
 //		System.out.println("");
     }
 
+    /**
+     * This method always returns null!
+     * @return null
+     */
     public String method3() {
         //return new String("Java");
 //		return "Java";
@@ -82,6 +77,6 @@ public class ReturnDemo {
 
     public int method4() {
         return 5;
-        //return null;
+//        return null; // Problem!
     }
 }

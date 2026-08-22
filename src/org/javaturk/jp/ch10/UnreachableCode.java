@@ -1,18 +1,8 @@
 package org.javaturk.jp.ch10;
 
-/**
- * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>
- * <p>
- * For more info please
- * @see <a href="http://www.javaturk.org">http://www.javaturk.org</a>
- * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
- * </p>
- * This is an example that shows arithmetic promotions made in operators.
- */
-public class UnreachableCode {
+class UnreachableCode {
 
     public static void main(String[] args) {
-
 
 //		// Not an unreachable code :)
         int a = 8;
@@ -37,18 +27,18 @@ public class UnreachableCode {
 //        final boolean b1 = false;
 
         while (b1)
-            System.out.println("Selam"); // Unreachable code!
+            System.out.println("Selam"); // Unreachable code if b1 is final!
         int r = 5;
 //
 ////		k = 2;
 //		// Unreachable code if break does not exist.
-//		while (true) {
-//			System.out.println("Selam");
-//			k++;
-//			if(k > 5)
-//				break;
-//		}
-//		int ii = 5; // Unreachable code without break.
+		while (true) {
+			System.out.println("Selam");
+			k++;
+			if(k > 5)
+				break;
+		}
+		int ii = 5; // Unreachable code without break.
 //
 //
 ////		That's not unreachable code

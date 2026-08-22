@@ -1,15 +1,6 @@
 package org.javaturk.jp.ch10;
 
-/**
- * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>
- * <p>
- * For more info please
- * @see <a href="http://www.javaturk.org">http://www.javaturk.org</a>
- * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
- * </p>
- * This is an example that shows arithmetic promotions made in operators.
- */
-public class BreakAndContinueWithLabelDemo {
+class BreakAndContinueWithLabelDemo {
 
     public static void main(String[] args) {
         int[][] array = { {32, 87, 3, 589, 7, 912, 617},
@@ -26,7 +17,7 @@ public class BreakAndContinueWithLabelDemo {
                 if (array[i][j] == searchFor) {
                     foundIt = true;
                     System.out.println("Found " + searchFor + " at " + i + ", " + j);
-                    break here;
+                    continue here; // break == continue here
                 }
             }
         }

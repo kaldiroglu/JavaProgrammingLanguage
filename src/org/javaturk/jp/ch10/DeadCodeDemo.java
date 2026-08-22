@@ -1,22 +1,6 @@
 package org.javaturk.jp.ch10;
 
-/**
- * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>
- * <p>
- * For more info please
- * @see <a href="http://www.javaturk.org">http://www.javaturk.org</a>
- * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
- * </p>
- * Dead code versus unreachable code.
- * <p>
- * Unreachable code is a compile-time error (JLS 14.21). Dead code is not: the
- * flow does reach it, it simply changes nothing. The compiler stays silent; only
- * the IDE warns.
- * <p>
- * Every commented-out block below is a compile error. Uncomment them one at a
- * time to see what javac says.
- */
-public class DeadCodeDemo {
+class DeadCodeDemo {
 
 	// A constant variable. This is the whole reason if-statements are exempt
 	// from the unreachability rule: flipping this to true must not require

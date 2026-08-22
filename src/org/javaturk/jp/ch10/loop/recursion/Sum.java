@@ -1,12 +1,12 @@
 package org.javaturk.jp.ch10.loop.recursion;
 
-public class Sum {
+class Sum {
     static int sum;
     static int i;
 
     public static void main(String[] args) {
-        sum(25);
-        sumRecursively(25);
+        sum(100);
+        sumRecursively(100);
     }
 
     public static void sum(int n) {
