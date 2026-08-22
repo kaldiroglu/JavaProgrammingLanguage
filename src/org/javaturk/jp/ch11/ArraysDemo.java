@@ -3,15 +3,7 @@ package org.javaturk.jp.ch11;
 import java.util.Arrays;
 import java.util.Random;
 
-/**
- * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>
- *         <p>
- *         For more info please
- * @see <a href="http://www.javaturk.org">http://www.javaturk.org</a>
- * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
- *      </p>
- */
-public class ArraysDemo {
+class ArraysDemo {
 	
 	int[] intArray = new int[20];
 	Pizza[] pizzalar = new Pizza[3];
@@ -74,6 +66,7 @@ public class ArraysDemo {
 	}
 
 	public void sort() {
+		print(names);
 		System.out.print("\nSorting an array: ");
 		Arrays.sort(names);
 		print(names);
@@ -81,7 +74,7 @@ public class ArraysDemo {
 	
 	public void search(int key) {
 		System.out.println("\nSearching " + key + " in an array");
-//		intArray[10] = 5;
+		intArray[0] = 5;
 		// Searching an array
 		Arrays.sort(intArray);
 		print(intArray);

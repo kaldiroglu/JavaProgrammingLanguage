@@ -1,9 +1,6 @@
 package org.javaturk.jp.ch11;
 
-/**
- * Reverses a given int array.
- */
-public class ReverseArray {
+class ReverseArray {
 
     public static void main(String[] args) {
         int[] a = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};

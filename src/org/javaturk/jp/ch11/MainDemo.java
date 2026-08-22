@@ -1,14 +1,6 @@
 package org.javaturk.jp.ch11;
 
-/**
- * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>
- *         <p>
- *         For more info please
- * @see <a href="http://www.javaturk.org">http://www.javaturk.org</a>
- * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
- *      </p>
- */
-public class MainDemo {
+class MainDemo {
 
 	public static void main(String[] args) {
 
@@ -30,7 +22,7 @@ public class MainDemo {
 
 		// Parse age to get int value
 		int intAge = Integer.parseInt(args[2]);
-		int yearOfBirth = 2023 - intAge;
+		int yearOfBirth = 2026 - intAge;
 		System.out.println(yearOfBirth + " yılında doğdun.");
 	}
 }

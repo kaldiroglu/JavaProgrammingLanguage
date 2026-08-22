@@ -3,15 +3,7 @@ package org.javaturk.jp.ch11;
 
 import java.util.Random;
 
-/**
- * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>
- *         <p>
- *         For more info please
- * @see <a href="http://www.javaturk.org">http://www.javaturk.org</a>
- * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
- *      </p>
- */
-public class ArrayDemo {
+class ArrayDemo {
 
 	static int[] intArray = new int[10];
 	static Pizza pizzas[] = new Pizza[3];
@@ -45,7 +37,6 @@ public class ArrayDemo {
 	}
 
 	public static void printArrays() {
-
 		System.out.println("Printing arrays");
 
 		for (int i = 0; i < intArray.length; i++)

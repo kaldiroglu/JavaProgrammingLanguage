@@ -1,15 +1,7 @@
 
 package org.javaturk.jp.ch11;
 
-/**
- * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>
- *         <p>
- *         For more info please
- * @see <a href="http://www.javaturk.org">http://www.javaturk.org</a>
- * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
- *      </p>
- */
-public class MultiDimArray {
+class MultiDimArray {
 
 	public static void main(String[] args) {
 		int[][] a = {{1, 2, 3, 9, 0, 3, 8},
@@ -91,6 +83,14 @@ public class MultiDimArray {
 								{43}
 							}
 						};
+
+		System.out.println("\nz.length is " + z.length);
+		System.out.println("z[0].length is " + z[0].length);
+		System.out.println("z[1].length is " + z[1].length);
+		System.out.println("z[0][0].length is " + z[0][0].length);
+		System.out.println("z[0][1].length is " + z[0][1].length);
+		System.out.println("z[1][0].length is " + z[1][0].length);
+		System.out.println("z[1][1].length is " + z[1][1].length);
 
 		System.out.println(z[0][0][0]); // 1
 		System.out.println(z[1][2][3]); // 27
