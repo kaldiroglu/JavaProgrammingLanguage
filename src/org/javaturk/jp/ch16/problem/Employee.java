@@ -33,7 +33,7 @@ public class Employee {
 
 	public static void main(String[] args) {
 		Employee e1 = new Employee(1, "Ali", "Ozgun", LocalDate.of(2001, 9, 11), 14_000.00f, null);
-		// null geçmek yerine diğer kurucu çağrılmalı
+		// The other constructor should be called instead of passing `null`
 //		Employee e2 = new Employee(1, "Ali", "Ozgun", LocalDate.of(2001, 9, 11), 14_000.00f);
 
 		Employee e3 = new Employee(1, "Ali", "Ozgun", LocalDate.of(2001, 9, 11), 14_000.00f, null);

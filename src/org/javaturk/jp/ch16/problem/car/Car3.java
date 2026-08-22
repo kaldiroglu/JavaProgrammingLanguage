@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch16.problem.car;
 
-public class Car3 {
+class Car3 {
     public String make;
     public String model;
     public String year;
@@ -11,12 +11,13 @@ public class Car3 {
     public boolean convertible;
 
     // Parameters and initializations are added for color and convertible
-    public Car3(String make, String model, String year, int speed, int distance, String newColor, boolean newConvertible) {
-        this.make = make;
-        this.model = model;
-        this.year = year;
-        this.speed = speed;
-        this.distance = distance;
+    public Car3(String newMake, String newModel, String newYear, int newSpeed, int newDistance, String newColor, boolean newConvertible) {
+        make = newMake;
+        model = newModel;
+        year = newYear;
+        speed = newSpeed;
+        distance = newDistance;
+
         // For new fields
         color = newColor;
         convertible = newConvertible;

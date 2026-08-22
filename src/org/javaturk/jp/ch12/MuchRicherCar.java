@@ -7,6 +7,9 @@ public class MuchRicherCar {
     int year;
     int speed;
     int distance;
+    boolean convertible;
+    String color;
+
     double fuel;
     double fuelCapacity;
 
@@ -55,12 +58,17 @@ public class MuchRicherCar {
     private void requireEngineRunning() {
         if (!engineRunning) {
             System.out.println("Engine is not running");
-        } else
             start();
+        }
+
     }
 
     public boolean isEngineRunning() {
         return engineRunning;
+    }
+
+    boolean isConvertable(){
+        return convertible;
     }
 
     public String info() {

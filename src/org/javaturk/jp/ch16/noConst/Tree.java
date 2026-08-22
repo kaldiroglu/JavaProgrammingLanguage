@@ -27,6 +27,6 @@ public class Tree {
 		
 		Tree tree2 = new Tree();
 		tree2.height = 5;
-		tree.printInfo();
+		tree2.printInfo();
 	}
 }

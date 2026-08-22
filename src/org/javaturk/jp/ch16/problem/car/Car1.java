@@ -1,6 +1,5 @@
 package org.javaturk.jp.ch16.problem.car;
-
-public class Car1 {
+ class Car1 {
     public String make;
     public String model;
     public String year;
@@ -8,12 +7,12 @@ public class Car1 {
     public int distance;
     public String color;
 
-    public Car1(String make, String model, String year, int speed, int distance) {
-        this.make = make;
-        this.model = model;
-        this.year = year;
-        this.speed = speed;
-        this.distance = distance;
+    public Car1(String newMake, String newModel, String newYear, int newSpeed, int newDistance) {
+        make = newMake;
+        model = newModel;
+        year = newYear;
+        speed = newSpeed;
+        distance = newDistance;
     }
 
     public static void main(String[] args) {

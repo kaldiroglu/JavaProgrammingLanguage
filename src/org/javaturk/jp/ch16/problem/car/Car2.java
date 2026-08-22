@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch16.problem.car;
 
-public class Car2 {
+class Car2 {
     public String make;
     public String model;
     public String year;
@@ -10,13 +10,13 @@ public class Car2 {
     public String color;
     public boolean convertible;
 
-    // // No initialization for color and convertible
-    public Car2(String make, String model, String year, int speed, int distance) {
-        this.make = make;
-        this.model = model;
-        this.year = year;
-        this.speed = speed;
-        this.distance = distance;
+    // No initialization for color and convertible
+    public Car2(String newMake, String newModel, String newYear, int newSpeed, int newDistance) {
+        make = newMake;
+        model = newModel;
+        year = newYear;
+        speed = newSpeed;
+        distance = newDistance;
     }
 
     public void setColor(String newColor) {

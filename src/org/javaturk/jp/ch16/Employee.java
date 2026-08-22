@@ -11,7 +11,7 @@ public class Employee {
     float salary;
 
     void work() {
-        System.out.println("Employee " + firstName + " " + lastName + " is working.);");
+        System.out.println("Employee " + firstName + " " + lastName + " is working.");
     }
 
     public Employee(int newId, String newFirstName, String newLastName, LocalDate newBirthDate, float newSalary) {
@@ -26,7 +26,7 @@ public class Employee {
         Employee e = new Employee(1, "Ali", "Ozgun", LocalDate.of(2001, 9, 11), 14_000.00f);
         e.work();
 
-        // No reference t the object!
+        // No reference to the object!
         new Employee(2, "Sami", "Telli", LocalDate.of(1994, 2, 3), 28_000.00f).work();
     }
 }
