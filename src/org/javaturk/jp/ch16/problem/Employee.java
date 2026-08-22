@@ -2,7 +2,7 @@ package org.javaturk.jp.ch16.problem;
 
 import java.time.LocalDate;
 
-public class Employee {
+class Employee {
 
 	int id;
 	String firstName;
@@ -12,7 +12,7 @@ public class Employee {
 	String department = "No department yet!";
 //	String department;
 
-	public Employee(int newId, String newFirstName, String newLastName, LocalDate newBirthDate, float newSalary,
+	Employee(int newId, String newFirstName, String newLastName, LocalDate newBirthDate, float newSalary,
 					String newDepartment) {
 		id = newId;
 		firstName = newFirstName;

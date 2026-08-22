@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch16.argConst;
 
-public class Tree {
+class Tree {
 	String type;
 	float height;
 	
@@ -9,7 +9,7 @@ public class Tree {
 		height = newHeight;
 	}
 
-	public void printInfo() {
+	void printInfo() {
 		System.out.println("\nTree Info:");
 		System.out.println("Type: " + type);
 		System.out.println("Height: " + height);

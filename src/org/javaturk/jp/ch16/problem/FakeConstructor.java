@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch16.problem;
 
-public class FakeConstructor {
+class FakeConstructor {
 
 	FakeConstructor() {
 		System.out.println("in FakeConstructor");

@@ -2,7 +2,7 @@ package org.javaturk.jp.ch16;
 
 import java.time.LocalDate;
 
-public class Employee {
+class Employee {
 
     int id;
     String firstName;

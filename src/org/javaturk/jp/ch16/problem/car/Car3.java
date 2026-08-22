@@ -1,17 +1,17 @@
 package org.javaturk.jp.ch16.problem.car;
 
 class Car3 {
-    public String make;
-    public String model;
-    public String year;
-    public int speed;
-    public int distance;
+    String make;
+    String model;
+    String year;
+    int speed;
+    int distance;
     // Added later
-    public String color;
-    public boolean convertible;
+    String color;
+    boolean convertible;
 
     // Parameters and initializations are added for color and convertible
-    public Car3(String newMake, String newModel, String newYear, int newSpeed, int newDistance, String newColor, boolean newConvertible) {
+    Car3(String newMake, String newModel, String newYear, int newSpeed, int newDistance, String newColor, boolean newConvertible) {
         make = newMake;
         model = newModel;
         year = newYear;

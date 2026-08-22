@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch16.problem;
 
-public class Tree {
+class Tree {
 
 	String type;
 	float height;

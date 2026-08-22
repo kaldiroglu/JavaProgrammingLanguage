@@ -13,7 +13,7 @@ class Employee {
     String phone = "";
     Address address;
 
-    public Employee(int newId, String newFirstName, String newLastName, LocalDate newBirthDate, float newSalary, String newDepartment, String newPhone, Address newAddress) {
+    Employee(int newId, String newFirstName, String newLastName, LocalDate newBirthDate, float newSalary, String newDepartment, String newPhone, Address newAddress) {
         id = newId;
         firstName = newFirstName;
         lastName = newLastName;
@@ -24,7 +24,7 @@ class Employee {
         address = newAddress;
     }
 
-    public Employee(int newId, String newFirstName, String newLastName, LocalDate newBirthDate, float newSalary) {
+    Employee(int newId, String newFirstName, String newLastName, LocalDate newBirthDate, float newSalary) {
         id = newId;
         firstName = newFirstName;
         lastName = newLastName;

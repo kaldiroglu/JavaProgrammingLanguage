@@ -1,13 +1,14 @@
 package org.javaturk.jp.ch16.problem.car;
- class Car1 {
-    public String make;
-    public String model;
-    public String year;
-    public int speed;
-    public int distance;
-    public String color;
 
-    public Car1(String newMake, String newModel, String newYear, int newSpeed, int newDistance) {
+class Car1 {
+    String make;
+    String model;
+    String year;
+    int speed;
+    int distance;
+    String color;
+
+    Car1(String newMake, String newModel, String newYear, int newSpeed, int newDistance) {
         make = newMake;
         model = newModel;
         year = newYear;

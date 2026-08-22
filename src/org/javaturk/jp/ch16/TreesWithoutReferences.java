@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch16;
 
-public class TreesWithoutReferences {
+class TreesWithoutReferences {
 	private String type;
 	private float height;
 

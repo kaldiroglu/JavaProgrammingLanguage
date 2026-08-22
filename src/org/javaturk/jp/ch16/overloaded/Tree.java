@@ -1,47 +1,47 @@
 package org.javaturk.jp.ch16.overloaded;
 
-public class Tree {
+class Tree {
 
-	 String type;
-	 float height;
+    String type;
+    float height;
 
-	public Tree(String newType, float newHeight) {
-		type = newType;
-		height = newHeight;
-	}
+    Tree(String newType, float newHeight) {
+        type = newType;
+        height = newHeight;
+    }
 
-	public Tree(String newType) {
-		type = newType;
-		height = 1.0f;
-	}
+    Tree(String newType) {
+        type = newType;
+        height = 1.0f;
+    }
 
-	public Tree(float newHeight) {
-		type = "Pine";
-		height = newHeight;
-	}
+    Tree(float newHeight) {
+        type = "Pine";
+        height = newHeight;
+    }
 
-	public Tree() {
-		type = "Pine";
-		height = 1.0f;
-	}
+    Tree() {
+        type = "Pine";
+        height = 1.0f;
+    }
 
-	public void printInfo() {
-		System.out.println("\nTree Info:");
-		System.out.println("Type: " + type);
-		System.out.println("Height: " + height);
-	}
+    void printInfo() {
+        System.out.println("\nTree Info:");
+        System.out.println("Type: " + type);
+        System.out.println("Height: " + height);
+    }
 
-	public static void main(String[] args) {
-		Tree tree1 = new Tree("Pine", 2.0f);
-		tree1.printInfo();
+    public static void main(String[] args) {
+        Tree tree1 = new Tree("Pine", 2.0f);
+        tree1.printInfo();
 
-		Tree tree2 = new Tree("Oak");
-		tree2.printInfo();
+        Tree tree2 = new Tree("Oak");
+        tree2.printInfo();
 
-		Tree tree3 = new Tree(8.0f);
-		tree3.printInfo();
-		
-		Tree tree4 = new Tree();
-		tree4.printInfo();
-	}
+        Tree tree3 = new Tree(8.0f);
+        tree3.printInfo();
+
+        Tree tree4 = new Tree();
+        tree4.printInfo();
+    }
 }
