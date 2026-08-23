@@ -1,8 +1,8 @@
 package org.javaturk.jp.ch16;
 
 class TreesWithoutReferences {
-    private String type;
-    private float height;
+    String type;
+    float height;
 
     TreesWithoutReferences(String newType, float newHeight) {
         System.out.println("in TreesWithoutReferences");
