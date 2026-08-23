@@ -2,24 +2,24 @@ package org.javaturk.jp.ch16.problem;
 
 class Tree {
 
-	String type;
-	float height;
+    String type;
+    float height;
 
-	Tree(String newType, float newHeight) {
-		printInfo();	// That's problem!
-		type = newType;
-		height = newHeight;
-		printInfo(); // That's not problem!
-	}
+    Tree(String newType, float newHeight) {
+        printInfo();    // That's problem!
+        type = newType;
+        height = newHeight;
+        printInfo(); // That's not problem!
+    }
 
-	public void printInfo() {
-		System.out.println("\nTree Info:");
-		System.out.println("Type: " + type);
-		System.out.println("Height: " + height);
-	}
+    void printInfo() {
+        System.out.println("\nTree Info:");
+        System.out.println("Type: " + type);
+        System.out.println("Height: " + height);
+    }
 
-	public static void main(String[] args) {
-		Tree tree = new Tree("Pine", 2.0f);
-		tree.printInfo();
-	}
+    public static void main(String[] args) {
+        Tree tree = new Tree("Pine", 2.0f);
+        tree.printInfo();
+    }
 }

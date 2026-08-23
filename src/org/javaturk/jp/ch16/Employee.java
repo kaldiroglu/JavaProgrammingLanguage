@@ -14,7 +14,7 @@ class Employee {
         System.out.println("Employee " + firstName + " " + lastName + " is working.");
     }
 
-    public Employee(int newId, String newFirstName, String newLastName, LocalDate newBirthDate, float newSalary) {
+    Employee(int newId, String newFirstName, String newLastName, LocalDate newBirthDate, float newSalary) {
         id = newId;
         firstName = newFirstName;
         lastName = newLastName;

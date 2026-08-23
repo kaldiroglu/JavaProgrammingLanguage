@@ -4,13 +4,13 @@ class ObjectsAndReferences {
     String type;
     float height;
 
-    public ObjectsAndReferences(String newType, float newHeight) {
+    ObjectsAndReferences(String newType, float newHeight) {
         System.out.println("in TreesWithoutReferences");
         type = newType;
         height = newHeight;
     }
 
-    public void printInfo() {
+    void printInfo() {
         System.out.println("\nTree Info:");
         System.out.println("Type: " + type);
         System.out.println("Height: " + height);
