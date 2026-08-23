@@ -22,7 +22,7 @@ class Employee {
 		department = newDepartment;
 	}
 
-//	public Employee(int newId, String newFirstName, String newLastName, LocalDate newBirthDate, float newSalary) {
+//	Employee(int newId, String newFirstName, String newLastName, LocalDate newBirthDate, float newSalary) {
 //		id = newId;
 //		firstName = newFirstName;
 //		lastName = newLastName;
