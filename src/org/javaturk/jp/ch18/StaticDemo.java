@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch18;
 
-public class StaticDemo {
+class StaticDemo {
 	static int i = 10;
 	int j = 10;
 	
