@@ -33,7 +33,7 @@ class TreesWithoutReferences {
         new TreesWithoutReferences("Pine", 5).printInfo();
 
         TreesWithoutReferences tt1;
-//		tt1.printInfo();;
+//		tt1.printInfo();
 
         TreesWithoutReferences tt2 = null;
 //		tt2.printInfo();
