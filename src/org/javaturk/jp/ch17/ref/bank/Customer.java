@@ -1,21 +1,21 @@
 package org.javaturk.jp.ch17.ref.bank;
 
-public class Customer {
-	int id;
-	String name;
-	
-	CreditCard cc;
+class Customer {
+    int id;
+    String name;
 
-	public Customer(int id, String name) {
-		this.id = id;
-		this.name = name;
-	}
+    CreditCard cc;
 
-	public void setCc(CreditCard cc) {
-		this.cc = cc;
-	}
+    Customer(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 
-	public CreditCard getCc() {
-		return cc;
-	}
+    void setCc(CreditCard cc) {
+        this.cc = cc;
+    }
+
+    CreditCard getCc() {
+        return cc;
+    }
 }

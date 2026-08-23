@@ -1,28 +1,28 @@
 package org.javaturk.jp.ch17.ref.bank;
 
-public class CreditCard {
-	String no;
-	double balance;
-	
-	Customer owner;
+class CreditCard {
+    String no;
+    double balance;
 
-	public CreditCard(String no, double balance) {
-		this.no = no;
-		this.balance = balance;
-	}
-	
-	public CreditCard(String no, double balance, Customer owner) {
-		this.no = no;
-		this.balance = balance;
-		this.owner = owner;
-		owner.setCc(this);
-	}
+    Customer owner;
 
-	public void setOwner(Customer owner) {
-		this.owner = owner;
-	}
+    CreditCard(String no, double balance) {
+        this.no = no;
+        this.balance = balance;
+    }
 
-	public Customer getOwner() {
-		return owner;
-	}
+    CreditCard(String no, double balance, Customer owner) {
+        this.no = no;
+        this.balance = balance;
+        this.owner = owner;
+        owner.setCc(this);
+    }
+
+    void setOwner(Customer owner) {
+        this.owner = owner;
+    }
+
+    Customer getOwner() {
+        return owner;
+    }
 }

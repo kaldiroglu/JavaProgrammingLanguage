@@ -1,11 +1,11 @@
 package org.javaturk.jp.ch17.call;
 
-public class Tree {
+class Tree {
 
     String type;
     float height;
 
-    public Tree(String newType, float newHeight) {
+    Tree(String newType, float newHeight) {
 //      Not here!
 //      printInfo();
         type = newType;
@@ -28,7 +28,7 @@ public class Tree {
         this("Pine", 1.0f);
     }
 
-    public void printInfo() {
+    void printInfo() {
 
         System.out.println("\nTree Info:");
         System.out.println("Type: " + type);
