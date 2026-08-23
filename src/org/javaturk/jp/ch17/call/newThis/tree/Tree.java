@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch17.call.newThis.tree;
 
-public class Tree {
+class Tree {
 
     String type;
     float height;
