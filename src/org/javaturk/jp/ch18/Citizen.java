@@ -1,12 +1,12 @@
 package org.javaturk.jp.ch18;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 class Citizen {
 	String tckn;
 	String firstName;
 	String lastName;
-	Date dateOfBirth;
+	LocalDate dateOfBirth;
 	String placeOfBirth;
 	char sex;
 	
