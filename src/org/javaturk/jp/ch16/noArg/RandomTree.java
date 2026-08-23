@@ -14,7 +14,7 @@ class RandomTree {
 		height = produceHeight();
 	}
 
-	public void printInfo() {
+	void printInfo() {
 		System.out.println("\nTree Info:");
 		System.out.println("Type: " + type);
 		System.out.println("Height: " + height);
