@@ -8,7 +8,7 @@ class ThisProblems {
 //		this(); // Recursive call
 //		System.out.println("ThisProblems()");
 //		this("ThisProblems");
-        this(3); // Must be the first statement in the constructor.
+        this(3); // Doesn't have to be the first statement in the constructor anymore!
 
     }
 
