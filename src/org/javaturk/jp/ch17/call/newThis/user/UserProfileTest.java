@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch17.call.newThis.user;
 
-public class UserProfileTest {
+class UserProfileTest {
 
     public static void main(String[] args) {
         System.out.println("--- Testing UserProfile ---\n");
@@ -8,7 +8,7 @@ public class UserProfileTest {
         // 1. Test using the direct constructor
         System.out.println("Creating profile via direct constructor:");
         UserProfile profile1 = new UserProfile("jdoe", "jane.doe@example.com");
-        
+
         // 2. Test using the raw input constructor (The "Parsing" constructor)
         System.out.println("\nCreating profile via raw input string:");
         try {
