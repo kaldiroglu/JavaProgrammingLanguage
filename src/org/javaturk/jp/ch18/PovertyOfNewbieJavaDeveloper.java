@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch18;
 
-class PovertyOfANewBieJavaProgrammer {
+class PovertyOfNewbieJavaDeveloper {
 	int i = 5;
 	
 	public static void main(String[] args) {
