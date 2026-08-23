@@ -37,9 +37,6 @@ public class Tree {
 //        this(newType, newHeight);
 //    }
 
-    /**
-     * It is not valid even in Java 25!
-     */
     Tree() {
         System.out.println("No arguments!");
 //        System.out.println(height); // Can't reference an instance variable
