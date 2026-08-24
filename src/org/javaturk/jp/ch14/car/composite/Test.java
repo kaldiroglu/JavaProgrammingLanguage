@@ -17,7 +17,7 @@ class Test {
 		
 		System.out.println(mercedes.getInfo());
 		System.out.println(zeynep.getInfo());
-//		
+
 		System.out.println("*************");
 		
 		//That's how the relationship/association is established.

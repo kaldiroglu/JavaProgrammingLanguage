@@ -2,12 +2,8 @@ package org.javaturk.jp.ch14.car.attribute;
 
 class Test {
 	public static void main(String[] args) {
-//		String s = null;
-//		System.out.println(s);
-		// Employee's department
-
 		Car myCar = new Car();
-		// Aymazlık of developer
+		// Problem!
 		System.out.println("My Car: " + myCar.year + " " + myCar.make + " " + myCar.model + " " +  myCar.speed  + " " + myCar.distance);
 
 		myCar.make = "Mercedes";
@@ -15,7 +11,6 @@ class Test {
 		myCar.year = "2019";
 		myCar.speed = 80;
 		myCar.distance = 30_000;	
-
 		System.out.println("My Car: " + myCar.year + " " + myCar.make + " " + myCar.model + " " +  myCar.speed  + " " + myCar.distance);
 		
 		Car yourCar = new Car();
@@ -25,20 +20,5 @@ class Test {
 		yourCar.speed = 0;
 		yourCar.distance = 60_000;
 		System.out.println("Your Car: " + yourCar.year + " " + yourCar.make + " " + yourCar.model + " " +  yourCar.speed  + " " + yourCar.distance);
-
-		System.out.println();
-		
-		//Following shows the difference between a reference and an object.	
-		Car tmpCar = myCar;
-		myCar = yourCar;
-		yourCar = tmpCar;
-
-		System.out.println("My Car: " + myCar.year + " " + myCar.make + " " + myCar.model);
-		System.out.println("Your Car: " + yourCar.year + " " + yourCar.make + " " + yourCar.model);
-		
-		myCar.speed= 150;
-		yourCar.speed = 200;
-		
-		System.out.println(myCar.speed + " " + yourCar.speed + " " + tmpCar.speed);
 	}
 }
