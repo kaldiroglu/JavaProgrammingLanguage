@@ -1,7 +1,6 @@
 package org.javaturk.jp.ch13;
 
 class Book {
-
     String title;
     String author;
     int pageCount;
@@ -10,8 +9,7 @@ class Book {
 
     public double read(int pages) {
         currentPage += pages;
-        double completed = (double) currentPage / pageCount * 100;
-        return completed;
+        return (double) currentPage / pageCount * 100;
     }
 
     public void borrow() {

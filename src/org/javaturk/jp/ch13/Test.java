@@ -16,6 +16,7 @@ public class Test {
 		System.out.println(book1.info());
 
 		System.out.println("\nWhile it is being read.");
+		book1.borrow();
 		book1.read(40);
 		book1.read(60);
 		System.out.println(book1.info());
@@ -29,12 +30,31 @@ public class Test {
 		book2.currentPage = 100;
 		System.out.println(book2.info());
 
+		Book book3 = book2;
+
 		book2.borrow();
 		double completed = book2.read(132);
+		completed = book2.read(232);
 		System.out.println("Completed " + completed + " percent of the book.");
 		System.out.println(book2.info());
 
 		book2.giveBack();
 		System.out.println(book2.info());
+		System.out.println(book3.info());
+
+		System.out.println("\nSwitching references");
+		Book tmpBook = book1;
+		book1 = book3;
+		book3 = tmpBook;
+
+		System.out.println(book1.info());
+		System.out.println(book3.info());
+
+		System.out.println("\nNullifying tmpBook");
+		tmpBook = null;
+		System.out.println(tmpBook);
+
+		if(tmpBook != null)
+			System.out.println(tmpBook.info());
 	}
 }
