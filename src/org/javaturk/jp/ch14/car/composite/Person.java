@@ -14,7 +14,6 @@ class Person {
 				info += " and has a car: " + vehicle.getInfo();
 		else
 			info += " and has no car.";
-		
 		return info;
 	}
 }

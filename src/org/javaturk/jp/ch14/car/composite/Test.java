@@ -39,7 +39,7 @@ class Test {
 		bmw.model = "i8";
 		bmw.year = "2019";
 		bmw.speed = 0;
-		bmw.distance = 0;
+		bmw.distance = 200_000;
 		System.out.println(bmw.getInfo());
 		
 		// A person without a car
@@ -60,12 +60,17 @@ class Test {
 
 		System.out.println("\nAfter selling the car");
 
+		// Following should be done together!
 		ahmet.vehicle = null;
 		bmw.owner = null;
-		//mercedes.owner = null;
-		
+		System.out.println(bmw.getInfo());
+		System.out.println(ahmet.getInfo());
+
+		System.out.println();
+
 		zeynep.vehicle = bmw;
 		bmw.owner = zeynep;
+		mercedes.owner = null; // Do not forget this!
 		System.out.println(ahmet.getInfo());
 		System.out.println(zeynep.getInfo());
 		
@@ -76,20 +81,21 @@ class Test {
 		System.out.println("\nExchange the vehicles");
 		ahmet.vehicle = mercedes;
 		mercedes.owner = ahmet;
-		zeynep.vehicle = bmw;
-		bmw.owner = zeynep;
+//		zeynep.vehicle = bmw;
+//		bmw.owner = zeynep;
 
 		System.out.println(bmw.getInfo());
 		System.out.println(mercedes.getInfo());
 		System.out.println(zeynep.getInfo());
 		System.out.println(ahmet.getInfo());
 		System.out.println();
-		
+
+		// For consistency
 		zeynep.vehicle = null;
 		bmw.owner = null;
 		System.out.println(bmw.getInfo());
 		System.out.println(zeynep.getInfo());
 		
-//		System.out.println(zeynep.vehicle.model);
+//		System.out.println(zeynep.vehicle.model); // NullPointerException
 	}
 }

@@ -2,6 +2,8 @@ package org.javaturk.jp.ch14.car.attribute;
 
 class Test {
 	public static void main(String[] args) {
+//		int i;
+//		System.out.println(i);
 		Car myCar = new Car();
 		// Problem!
 		System.out.println("My Car: " + myCar.year + " " + myCar.make + " " + myCar.model + " " +  myCar.speed  + " " + myCar.distance);
