@@ -28,11 +28,11 @@ class InitializationProblem2 {
             coefficient = 4 * ratio;
     }
 
-    private int getRatioFromFile() {
+    int getRatioFromFile() {
         return 2;
     }
 
-    private String getNameFromFile() {
+    String getNameFromFile() {
         return "Default";
     }
 }

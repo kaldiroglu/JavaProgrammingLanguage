@@ -19,8 +19,8 @@ class ClassInitializationOrder1 {
 class ClassA {
     static int i = 5;
 
-    private static double d1;
-    private static String name = "JAVA";
+    static double d1;
+    static String name = "JAVA";
 
     static {
         System.out.println("i: " + i);
@@ -46,7 +46,7 @@ class ClassA {
         System.out.println("i: " + i + " d1: " + d1 + " d2: " + d2);
     }
 
-    private static double d2;
+    static double d2;
 
     static {
         System.out.println("Initial value of d2: " + d2);
