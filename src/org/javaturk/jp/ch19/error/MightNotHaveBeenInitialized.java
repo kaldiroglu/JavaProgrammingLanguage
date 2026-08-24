@@ -1,8 +1,8 @@
 package org.javaturk.jp.ch19.error;
 
-public class MightNotHaveBeenInitialized {
+class MightNotHaveBeenInitialized {
 
-//    final int i;
+    //    final int i;
     String s;
 
     {

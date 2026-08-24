@@ -2,8 +2,7 @@ package org.javaturk.jp.ch19.error;
 
 import java.time.LocalTime;
 
-public class MightAlreadyHaveBeenAssigned {
-
+class MightAlreadyHaveBeenAssigned {
     final int i;
 
     {

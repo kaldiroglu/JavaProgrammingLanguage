@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch19;
 
-public class FinalInitialization {
+class FinalInitialization {
 
 	public static void main(String[] args) {
 	}

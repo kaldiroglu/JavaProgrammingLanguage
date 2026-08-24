@@ -3,19 +3,7 @@ package org.javaturk.jp.ch19.problem;
 import java.time.LocalTime;
 import java.util.Random;
 
-/**
- * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>
- *         <p>
- *         For more info please
- * @see <a href="http://www.javaturk.org">http://www.javaturk.org</a>
- * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
- *      </p>
- *      This example shows how to use initializer block to solve all problems
- *      mentioned in InitializationProblem1, InitializationProblem2, InitializationProblem3 and
- *      InitializationProblem4 classes.
- * 
- */
-public class InitializationSolution {
+class InitializationSolution {
 	String name;
 	double coefficient;
 	int ratio;

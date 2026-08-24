@@ -2,15 +2,7 @@ package org.javaturk.jp.ch19;
 
 import java.util.Random;
 
-/**
- * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>
- *         <p>
- *         For more info please
- * @see <a href="http://www.javaturk.org">http://www.javaturk.org</a>
- * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
- *      </p>
- */
-public class InitializerBlocks {
+class InitializerBlocks {
 
 	double d;
 //	d = 3.14D; // Can't do this. Use initializers instead.

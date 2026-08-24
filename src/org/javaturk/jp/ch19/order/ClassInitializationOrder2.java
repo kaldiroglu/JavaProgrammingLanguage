@@ -1,10 +1,10 @@
 package org.javaturk.jp.ch19.order;
 
-public class ClassInitializationOrder2 {
+class ClassInitializationOrder2 {
     public static void main(String[] args) {
 //		System.out.println("ClassAA.i: " + ClassAA.i); // Does cause the initialization of ClassAA
 //        System.out.println("ClassAA.j: " + ClassAA.j); // Doesn't cause the initialization of ClassAA
-		System.out.println("ClassAA.s: " + ClassAA.s); // Doesn't cause the initialization of ClassAA
+        System.out.println("ClassAA.s: " + ClassAA.s); // Doesn't cause the initialization of ClassAA
 //		System.out.println(ClassAA.CONSTANT);	// Causes the initialization of ClassAA
 //		ClassAA.printInfo();
 //
@@ -28,11 +28,11 @@ class ClassAA {
         System.out.println("in static initializer block of ClassAA - 1");
         System.out.println("i: " + i);
         System.out.println("j: " + j);
-		s = "Naber?";
+        s = "Naber?";
         System.out.println("s: " + s);
     }
 
-    public static final String CONSTANT = s;
+    static final String CONSTANT = s;
 
     //	public static final String CONSTANT = name;
     static {
@@ -41,7 +41,7 @@ class ClassAA {
         System.out.println("CONSTANT: " + CONSTANT); // Can't reach its value when it is not explicitly initialzied!
     }
 
-    public ClassAA() {
+    ClassAA() {
         System.out.println("in ClassAA()");
     }
 
