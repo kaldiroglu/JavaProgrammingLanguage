@@ -8,7 +8,7 @@ class FootballPlayer {
     int numberOfGoals;
     String team;
 
-    public void setNo(int newNo) {
+    void setNo(int newNo) {
         no = newNo;
     }
 
@@ -16,7 +16,7 @@ class FootballPlayer {
         name = newName;
     }
 
-    public void setTeam(String newTeam) {
+    void setTeam(String newTeam) {
         team = newTeam;
     }
 
@@ -28,22 +28,22 @@ class FootballPlayer {
     void play(int minutes) {
         System.out.println(name + " is in play");
         inPlay = true;
-        minutesPlayed = minutesPlayed + minutes;
+        minutesPlayed += minutes;
     }
 
-    public int getNumberOfGoals() {
+    int getNumberOfGoals() {
         return numberOfGoals;
     }
 
-    public int getMinutesPlayed() {
+    int getMinutesPlayed() {
         return minutesPlayed;
     }
 
-    public String getName() {
+    String getName() {
         return name;
     }
 
-    public String info() {
+    String info() {
         return "FootballPlayer{" +
                 "no=" + no +
                 ", name='" + name + '\'' +

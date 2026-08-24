@@ -30,4 +30,3 @@ class CalculatorTest {
 //		System.out.println(calculator.factorial(5));
     }
 }
-//

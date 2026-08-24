@@ -7,6 +7,10 @@ class FootballPlayerTest {
         moSalah.setNo(11);
         moSalah.setName("Mo Salah");
         moSalah.setTeam("Liverpool");
+        // No need to initialize them
+        // moSalah.inPlay = false
+        // moSalah.minutesPlayed = 0
+        // moSalah.numberOfGoals = 0
 
         moSalah.play(90);
         moSalah.score();
