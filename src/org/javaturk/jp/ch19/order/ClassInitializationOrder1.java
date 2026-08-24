@@ -29,7 +29,7 @@ class ClassA {
         System.out.println("And now the value of d1: " + d1);
     }
 
-    public ClassA() {
+    ClassA() {
         System.out.println("\nStarting ClassA()");
         System.out.println("The value of d1: " + d1);
         d1 = Math.random() * 10;

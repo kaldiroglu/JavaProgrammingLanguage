@@ -62,7 +62,7 @@ class InitializationOrder {
 
 class A {
 
-    public A() {
+    A() {
         System.out.println("in A()");
     }
 
@@ -99,7 +99,7 @@ class D {
         System.out.println("i: " + i);
     }
 
-    public D() {
+    D() {
         System.out.println("in D()");
     }
 }
