@@ -4,6 +4,6 @@ class Hello {
     String greeting = "Hello ";
 
     String sayHello(String whom) {
-        return greeting + whom + " :)" + whom + " :)";
+        return greeting + whom + " :)";
     }
 }
