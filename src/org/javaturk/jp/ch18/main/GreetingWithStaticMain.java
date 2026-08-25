@@ -2,28 +2,27 @@ package org.javaturk.jp.ch18.main;
 
 import java.util.Random;
 
-class GreetingClass {
+class GreetingWithStaticMain {
 
-    Random random = new Random();
+    static Random random = new Random();
+    static String start = "*** Greeting Example ***";
+    static Selam s = new Selam();
+    static Hello h = new Hello();
 
-    String start = "*** Greeting Example ***";
-
-    public  void main() {
+    static void main() {
         System.out.println(start);
         saySalam();
         sayHello();
     }
 
-    void saySalam() {
-        Selam s = new Selam();
+    static void saySalam() {
         int limit = random.nextInt(10);
         for (int i = 0; i < limit; i++)
-            System.out.println(s.selamSoyle("Nalan"));
+            System.out.println(s.saySalam("Nalan"));
 
     }
 
-    void sayHello() {
-        Hello h = new Hello();
+    static void sayHello() {
         int limit = random.nextInt(10);
         for (int i = 0; i < limit; i++)
             System.out.println(h.sayHello("Jane"));

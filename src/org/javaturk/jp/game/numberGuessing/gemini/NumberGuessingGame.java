@@ -7,7 +7,7 @@ package org.javaturk.jp.game.numberGuessing.gemini;
  *
  * ### How the Code Works
  * This program is a great example for teaching several fundamental Java concepts:
- * 1. **`main` Method**: This is the entry point of the application. The game loop runs here, controlling the flow from start to finish.
+ * 1. **`compact` Method**: This is the entry point of the application. The game loop runs here, controlling the flow from start to finish.
  * 2. **`Scanner` Class**: It's used to read the player's input (`+` and `-` counts) from the console, making the game interactive.
  * 3. **Arrays (`int[]`)**: As requested, the code uses a basic integer array to store the list of all possible numbers. With each guess, this array is filtered and replaced by a new, smaller array.
  * 4. **Methods**: The logic is broken down into several helper methods, which is a core principle of clean code:

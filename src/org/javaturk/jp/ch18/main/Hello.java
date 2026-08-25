@@ -1,9 +1,9 @@
 package org.javaturk.jp.ch18.main;
 
-public class Hello {
+class Hello {
+    String greeting = "Hello ";
 
-    public String sayHello(String whom) {
-        String greeting = "Hello " + whom + " :)";
-        return greeting;
+    String sayHello(String whom) {
+        return greeting + whom + " :)" + whom + " :)";
     }
 }

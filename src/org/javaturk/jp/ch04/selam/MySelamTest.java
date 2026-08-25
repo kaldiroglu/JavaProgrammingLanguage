@@ -1,7 +1,7 @@
 //package org.javaturk.jp.ch04.selam;
 //
 //class SelamTest{
-//    public static void main(String[] args){
+//    public static void compact(String[] args){
 //        Selam nesne = new Selam();
 //        String cevap = nesne.selamSoyle("Zeynep");
 //        System.out.println(cevap);

@@ -5,7 +5,7 @@ package org.javaturk.jp.hw.ch02;
 /* Remove this block comment and closing one down the file before correcting the code
 
 public class StudentInfo {
-    public static void main(String[] args)
+    public static void compact(String[] args)
         System.out.println("Student Information System")
 
     // Student details

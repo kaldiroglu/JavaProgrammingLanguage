@@ -1,7 +1,7 @@
 package org.javaturk.jp.ch02.selam;
 
 // public class SelamTest {
-//    public static void main(String[] args) {
+//    public static void compact(String[] args) {
 //        Selam object = new Selam();
 //        String answer = object.selamSöyle("Mahmut");
 //        System.out.println(answer);

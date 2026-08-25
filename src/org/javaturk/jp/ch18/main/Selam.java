@@ -1,9 +1,9 @@
 package org.javaturk.jp.ch18.main;
 
-public class Selam {
+class Selam {
+    String greeting = "Selam ";
 
-    public String selamSoyle(String kime) {
-        String cumle = cumle = "Selam " + kime + " :)";
-        return cumle;
+    String saySalam(String whom) {
+        return greeting + whom + " :)";
     }
 }

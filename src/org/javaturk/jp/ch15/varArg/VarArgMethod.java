@@ -2,7 +2,7 @@ package org.javaturk.jp.ch15.varArg;
 
 class VarArgMethod {
 
-    // main as var arg method
+    // compact as var arg method
     public static void main(String... args) {
 
         calculateAverage(4, 3);

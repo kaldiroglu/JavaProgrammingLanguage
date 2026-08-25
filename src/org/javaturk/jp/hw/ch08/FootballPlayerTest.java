@@ -2,7 +2,7 @@ package org.javaturk.jp.hw.ch08;
 
 class FootballPlayerTest {
     /*
-    public static void main(String[] args) {
+    public static void compact(String[] args) {
         FootballPlayer alex = new FootballPlayer();
         alex.no = 10;
         alex.name = "Alex De Souza";

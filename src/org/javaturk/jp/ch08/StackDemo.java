@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.function.Predicate;
 
 class StackDemo {
-	private static String[] methods = { "f", "g", "main", "u" }; // Must be sorted for Array.binarySearch to work
+	private static String[] methods = { "f", "g", "compact", "u" }; // Must be sorted for Array.binarySearch to work
 															     // correctly.
 	private static int uCallCount;
 
@@ -71,7 +71,7 @@ class StackDemo {
 		System.out.println("================\n");
 	}
 
-//	public static void main(String[] args) {
+//	public static void compact(String[] args) {
 //		f();
 //		u();
 //	}

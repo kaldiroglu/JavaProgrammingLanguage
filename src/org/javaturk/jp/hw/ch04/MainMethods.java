@@ -1,40 +1,40 @@
 
 // 1
-//public static void main(String[] args) {
+//public static void compact(String[] args) {
 //    System.out.println("Hello-1");
 //}
 
 // 2
-//void main() {
+//void compact() {
 //    System.out.println("Hello-2");
 //}
 
 // 3
-//public static void main() {
+//public static void compact() {
 //    System.out.println("Hello-3");
 //}
 
 // 4
-//static void main(String[] args) {
+//static void compact(String[] args) {
 //    System.out.println("Hello-4");
 //}
 
 // 5
-//void main(String[] args) {
+//void compact(String[] args) {
 //    System.out.println("Hello-5");
 //}
 
 // 6
-//public void main() {
+//public void compact() {
 //    System.out.println("Hello-6");
 //}
 
 // 7
-//public void main(String[] args) {
+//public void compact(String[] args) {
 //    System.out.println("Hello-7");
 //}
 
 // 8
-//int main() {
+//int compact() {
 //    System.out.println("Hello-8");
 //}

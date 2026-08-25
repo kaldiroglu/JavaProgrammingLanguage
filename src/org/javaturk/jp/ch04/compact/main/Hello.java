@@ -3,33 +3,33 @@ package org.javaturk.jp.ch04.compact.main;
 public class Hello {
 
      void main() {
-     	System.out.println("Hello World with void main()");
+     	System.out.println("Hello World with void compact()");
      }
 
-//    void main(String[] args) {
-//            System.out.println("Hello World with void main(String[] args)");
+//    void compact(String[] args) {
+//            System.out.println("Hello World with void compact(String[] args)");
 //    }
 
-//    static void main() {
-//        System.out.println("Hello World with static void main()");
+//    static void compact() {
+//        System.out.println("Hello World with static void compact()");
 //    }
 //
-//    static void main(String[] args) {
-//            System.out.println("Hello World static void main(String[] args)");
+//    static void compact(String[] args) {
+//            System.out.println("Hello World static void compact(String[] args)");
 //    }
 //
-//     public static void main(String[] args) {
+//     public static void compact(String[] args) {
 //     	System.out.println("Who would use this after Java 25!)");
 //     }
 
-//     Following two main methods can't co-exist
+//     Following two compact methods can't co-exist
 
-//     void main() {
-//     	System.out.println("Hello World with void main()");
+//     void compact() {
+//     	System.out.println("Hello World with void compact()");
 //     }
 //
-//     static void main() {
-//     	System.out.println("Hello World with void main()");
+//     static void compact() {
+//     	System.out.println("Hello World with void compact()");
 //     }
 
 }

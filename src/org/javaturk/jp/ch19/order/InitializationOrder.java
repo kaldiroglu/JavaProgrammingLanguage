@@ -22,7 +22,7 @@ class InitializationOrder {
 
     public static void main(String[] args) {
 //		System.out.println("*****************************");
-//		System.out.println("in main");
+//		System.out.println("in compact");
 //		System.out.println("*****************************");
 //		System.out.println(InitializationOrder.i);
 //		System.out.println("*****************************");
