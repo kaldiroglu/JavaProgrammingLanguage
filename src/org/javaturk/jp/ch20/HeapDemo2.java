@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 import static org.javaturk.jp.ch20.MemoryUtil.getMemory;
 
-public class HeapDemo2 {
-    private static List list = new ArrayList();
+class HeapDemo2 {
+    static List list = new ArrayList();
 
     public static void main(String[] args) {
         System.out.println("Enter number of objects:");
@@ -15,7 +15,7 @@ public class HeapDemo2 {
         run1(objectCount);
     }
 
-    public static void run1(long objectCount) {
+    static void run1(long objectCount) {
         System.out.println("At the beginning.");
         getMemory();
         for (long i = 1; i <= objectCount; i++) {
@@ -31,7 +31,7 @@ public class HeapDemo2 {
         getMemory();
     }
 
-    public static void run2(long objectCount) {
+    static void run2(long objectCount) {
         System.out.println("At the beginning.");
         getMemory();
         for (long i = 1; i <= objectCount; i++) {
