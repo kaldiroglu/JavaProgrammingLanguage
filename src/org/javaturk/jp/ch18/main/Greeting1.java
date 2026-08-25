@@ -1,4 +1,4 @@
-// Compact source files can not have a package sdeclaration
+// Compact source files can not have a package declaration
 //package org.javaturk.ioop.ch07.main;
 
 import org.javaturk.jp.ch18.main.Hello;
