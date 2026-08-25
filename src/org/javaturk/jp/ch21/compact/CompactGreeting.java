@@ -3,10 +3,10 @@
 import org.javaturk.jp.ch21.compact.Hello;
 import org.javaturk.jp.ch21.compact.Selam;
 
-static Random random = new Random();
-static String start = "*** Greeting Example ***";
-static Selam s = new Selam();
-static Hello h = new Hello();
+Random random = new Random();
+String start = "Compact Greeting";
+Selam s = new Selam();
+Hello h = new Hello();
 
 void main() {
     System.out.println(start);
