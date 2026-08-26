@@ -32,16 +32,18 @@ class StaticDemo {
 		
 		// Direct access
 		setI(22);
-		//aMethod();
+		aMethod();
 		
-//		StaticDemo.setI(25);
-//		StaticDemo.aMethod();
+		StaticDemo.setI(25);
+		StaticDemo.aMethod();
+
+//		f();
 	}
 
 	static void increment() {
 		i++;
 		//j++;
-		aMethod();
+//		aMethod();
 		//f();
 	}
 	
@@ -53,6 +55,7 @@ class StaticDemo {
 	
 	static void setI(int i) {
 		StaticDemo.i = i;
+//		f();
 	}
 
 	void f(){

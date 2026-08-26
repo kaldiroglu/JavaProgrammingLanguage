@@ -37,8 +37,8 @@ class Citizen {
 		System.out.println("Selin's nationality: " + c2.nationality);
 		
 		Citizen.nationality = "Azerbaycan Respublikasi";
-		c1.nationality = "Azerbaycan Respublikasi-X";
-		c2.nationality = "Azerbaycan Respublikasi-Y";
+//		c1.nationality = "Azerbaycan Respublikasi";
+//		c2.nationality = "Azerbaycan Respublikasi";
 		
 		System.out.println("\nNationality: " + Citizen.nationality);
 		System.out.println("Mehmet's nationality: " + c1.nationality);

@@ -3,7 +3,6 @@ package org.javaturk.jp.ch18.main;
 import java.util.Random;
 
 class GreetingWithInstanceMain {
-
     Random random = new Random();
     String start = "*** Greeting Example ***";
     Selam s = new Selam();
