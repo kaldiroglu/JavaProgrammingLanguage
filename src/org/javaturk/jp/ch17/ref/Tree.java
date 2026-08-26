@@ -26,10 +26,10 @@ class Tree {
     }
 
     public static void main(String[] args) {
-
         Tree tree = new Tree("Pine", 15.0f);
         tree.printInfo();
 
+        System.out.println("\nCopying the tree");
         Tree copyTree = tree.copy();
         copyTree.printInfo();
 

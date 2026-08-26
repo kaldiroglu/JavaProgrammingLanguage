@@ -4,11 +4,12 @@ class UserProfile {
     final String username;
     final String email;
 
-    UserProfile(String username, String email) {
-        this.username = username;
-        this.email = email;
+    UserProfile(String newUsername, String newEmail) {
+        username = newUsername;
+        email = newEmail;
     }
 
+    // Format: username:email
     UserProfile(String rawInput) {
         // 1. Logic BEFORE the this() call (The "Prologue")
         if (!rawInput.contains(":")) {

@@ -31,7 +31,7 @@ class Tree {
 
     Tree() {
         System.out.println("No arguments!");
-//      System.out.println(height); // Can't reference an instance variable
+//        System.out.println(height); // Can't reference an instance variable
         height = 5; // But it can be assigned
         String newType = "Pine";
         float newHeight = 1.0f;

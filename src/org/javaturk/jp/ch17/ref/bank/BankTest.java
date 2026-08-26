@@ -16,11 +16,8 @@ class BankTest {
         System.out.println(cc2.getOwner().name);
 //		System.out.println(c2.getCc().no);
 
-        CreditCard cc3 = c2.getCc();
-        if (cc3 == null)
-            System.out.println("NULLLLLL");
-
-
+//        CreditCard cc3 = c2.getCc();
+//        if (cc3 == null)
+//            System.out.println("NULLLLLL");
     }
-
 }

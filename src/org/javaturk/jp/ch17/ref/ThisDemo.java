@@ -10,6 +10,7 @@ class ThisDemo {
     }
 
     ThisDemo(int i, int k, int j) {
+        //this is needed here
         this.i = i;
         this.k = k;
         this.j = j;
