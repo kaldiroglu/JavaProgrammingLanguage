@@ -18,7 +18,8 @@ class Tree {
 
     public static void main(String[] args) {
         Tree tree1 = new Tree();
-        tree1.printInfo(); // Meaningful state!
+        // Meaningful state!
+        tree1.printInfo();
 
         Tree tree2 = new Tree();
         tree2.printInfo();

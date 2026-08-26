@@ -1,7 +1,6 @@
 package org.javaturk.jp.ch16.overloaded;
 
 class Tree {
-
     String type;
     float height;
 

@@ -28,7 +28,7 @@ class Car2 {
     }
 
     public static void main(String[] args) {
-        Car2 car = new Car2("Mercedes", "E200", "2024", 0, 0);
+        Car2 car = new Car2("Mercedes", "E200", "2024", 0, 25500);
         car.setColor("Blue");
         car.setConvertible(true);
     }

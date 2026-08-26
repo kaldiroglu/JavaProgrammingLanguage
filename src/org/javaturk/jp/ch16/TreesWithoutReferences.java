@@ -32,10 +32,11 @@ class TreesWithoutReferences {
 
         new TreesWithoutReferences("Pine", 5).printInfo();
 
+
         TreesWithoutReferences tt1;
-//		tt1.printInfo();
+//		tt1.printInfo(); // Compilation error! tt1 at least must be assigned null. This avoids compiler error but causes an exception
 
         TreesWithoutReferences tt2 = null;
-//		tt2.printInfo();
+		tt2.printInfo(); // NullPointerException!
     }
 }

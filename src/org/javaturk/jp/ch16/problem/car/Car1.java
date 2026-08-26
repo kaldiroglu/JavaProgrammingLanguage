@@ -6,7 +6,6 @@ class Car1 {
     String year;
     int speed;
     int distance;
-    String color;
 
     Car1(String newMake, String newModel, String newYear, int newSpeed, int newDistance) {
         make = newMake;
@@ -17,7 +16,7 @@ class Car1 {
     }
 
     public static void main(String[] args) {
-        Car1 car = new Car1("Mercedes", "E200", "2024", 0, 0);
+        Car1 car = new Car1("Mercedes", "E200", "2024", 0, 25500);
     }
 }
 

@@ -2,9 +2,9 @@ package org.javaturk.jp.ch16.problem;
 
 class FakeConstructor {
 
-	FakeConstructor() {
-		System.out.println("in FakeConstructor");
-	}
+//	FakeConstructor() {
+//		System.out.println("in FakeConstructor");
+//	}
 	
 	void FakeConstructor() {
 		System.out.println("in FakeConstructor method");

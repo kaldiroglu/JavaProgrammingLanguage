@@ -9,7 +9,6 @@ class ThisProblems {
 //		System.out.println("ThisProblems()");
 //		this("ThisProblems");
         this(3); // Doesn't have to be the first statement in the constructor anymore!
-
     }
 
     ThisProblems(String name) {
@@ -22,5 +21,9 @@ class ThisProblems {
 
     ThisProblems(String name, int count) {
 //		this(name); // Recursive constructor call.
+    }
+
+    void grow(){
+//        this(); // Not allowed here!
     }
 }

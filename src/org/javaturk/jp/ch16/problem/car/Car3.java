@@ -10,6 +10,15 @@ class Car3 {
     String color;
     boolean convertible;
 
+    Car3(String newMake, String newModel, String newYear, int newSpeed, int newDistance) {
+        make = newMake;
+        model = newModel;
+        year = newYear;
+        speed = newSpeed;
+        distance = newDistance;
+        color = "";
+    }
+
     // Parameters and initializations are added for color and convertible
     Car3(String newMake, String newModel, String newYear, int newSpeed, int newDistance, String newColor, boolean newConvertible) {
         make = newMake;
@@ -24,8 +33,10 @@ class Car3 {
     }
 
     public static void main(String[] args) {
-        Car3 car = new Car3("Mercedes", "E200", "2024", 0, 0, "Blue", true);
+        Car3 car1 = new Car3("Mercedes", "E200", "2024", 0, 25500, "Blue", true);
 //          car.setColor("Blue");
 //          car.setConvertible(true);
+        Car3 car2 = new Car3("Mercedes", "E200", "2024", 0, 25500);
+
     }
 }
