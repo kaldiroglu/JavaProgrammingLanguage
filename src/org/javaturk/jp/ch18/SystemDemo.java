@@ -6,7 +6,7 @@ class SystemDemo {
 		System.out.println("System.out.println");
 		System.err.println("System.err.println");
 
-		System.out.println("User hame dir: " + System.getProperty("user.home"));
+		System.out.println("User home dir: " + System.getProperty("user.home"));
 		System.out.println("User working dir: " + System.getProperty("user.dir"));
 		System.out.println("Java version: " + System.getProperty("java.version"));
 		System.out.println("Line separator: " + System.lineSeparator()); 

@@ -6,8 +6,14 @@ class Geometry {
 
     public static void main(String[] args) {
         System.out.println(Geometry.calculateAreaOfCircle(10));
-        System.out.println(Geometry.calculateAreaOfARectangle(10, 8));
-        System.out.println(Geometry.calculateAreaOfATriangle(5, 9));
+        System.out.println(Geometry.calculateAreaOfRectangle(10, 8));
+        System.out.println(Geometry.calculateAreaOfTriangle(5, 9));
+
+        // Thinking the instances of Geometry is hard, even impossible!
+//        Geometry geometry1 = new Geometry();
+//        System.out.println(geometry1.calculateAreaOfCircle(10));
+//        Geometry geometry2 = new Geometry();
+//        System.out.println(geometry2.calculateAreaOfCircle(10));
     }
 
     static double calculateAreaOfCircle(double radius) {
@@ -18,11 +24,11 @@ class Geometry {
         return 2 * PI * radius;
     }
 
-    static double calculateAreaOfARectangle(double width, double length) {
+    static double calculateAreaOfRectangle(double width, double length) {
         return width * length;
     }
 
-    static double calculateAreaOfATriangle(double base, double height) {
+    static double calculateAreaOfTriangle(double base, double height) {
         return 0.5 * base * height;
     }
 }
