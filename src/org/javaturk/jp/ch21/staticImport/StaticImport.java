@@ -4,9 +4,10 @@ package org.javaturk.jp.ch21.staticImport;
 import static java.lang.Math.PI;
 import static java.lang.Math.pow;
 import static org.javaturk.jp.ch21.staticImport.AClass.*;
-//import static org.javaturk.jp.ch21.staticImport.AClass.A_CONSTANT;
-//import static org.javaturk.jp.ch21.staticImport.AClass.aStaticVariable;
-//import static org.javaturk.jp.ch21.staticImport.AClass.aStaticMethod;
+// Or following lines
+import static org.javaturk.jp.ch21.staticImport.AClass.A_CONSTANT;
+import static org.javaturk.jp.ch21.staticImport.AClass.aStaticVariable;
+import static org.javaturk.jp.ch21.staticImport.AClass.aStaticMethod;
 
 public class StaticImport {
 
