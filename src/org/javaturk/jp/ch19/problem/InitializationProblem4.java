@@ -2,6 +2,10 @@ package org.javaturk.jp.ch19.problem;
 
 import java.time.LocalTime;
 
+/**
+ * This illustrates the problem of assigning an initial value to coefficient.
+ * The problem of initialization gets harder when the variable to be initialized is static.
+ */
 class InitializationProblem4 {
 	String name;
 

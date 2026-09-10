@@ -46,7 +46,8 @@ class InitializerBlocks {
 	String s;
 
 	{
-		s = new String("Javaaaa!"); 
+		s = new String("Javaaaa!");
+		System.out.println(s);
 	}
 
 	double calculateD() {
@@ -67,7 +68,7 @@ class InitializerBlocks {
 	public static void main(String[] args) {
 		new InitializerBlocks();
 		new InitializerBlocks();
-//		InitializerBlocks ib = new InitializerBlocks();
-//		ib.printInfo();
+		InitializerBlocks ib = new InitializerBlocks();
+		ib.printInfo();
 	}
 }

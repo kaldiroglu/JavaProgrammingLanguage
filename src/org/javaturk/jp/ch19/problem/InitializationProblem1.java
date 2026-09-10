@@ -2,6 +2,9 @@ package org.javaturk.jp.ch19.problem;
 
 import java.time.LocalTime;
 
+/**
+ * This illustrates the problem of assigning an initial value to coefficient: Code duplication
+ */
 class InitializationProblem1 {
     String name;
 //	name = "default";

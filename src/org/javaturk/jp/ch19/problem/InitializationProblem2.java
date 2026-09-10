@@ -2,19 +2,25 @@ package org.javaturk.jp.ch19.problem;
 
 import java.time.LocalTime;
 
+/**
+ * This illustrates the problem of assigning an initial value to coefficient.
+ * Different initialization algorithms are possible. So constructors should have them.
+ * We can't use this() to call another constructor because constructors might have different algorithms.
+ * Again code duplication through copy-paste!
+ */
 class InitializationProblem2 {
     int ratio;
-
     double coefficient;
 
     InitializationProblem2() {
         ratio = getRatioFromFile();
-        ;
+
         LocalTime now = LocalTime.now();
         if (now.isBefore(LocalTime.MIDNIGHT))
             coefficient = 2 * (ratio + 1);
         else
             coefficient = 4 * (ratio - 1);
+
         // Using this() doesn't work gere
 //		this(ratio);
     }

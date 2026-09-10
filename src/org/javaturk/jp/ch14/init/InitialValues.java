@@ -27,7 +27,7 @@ class InitialValues {
     }
     
     public static void main(String[] args) {
-		InitialValues nesne = new InitialValues();
-		nesne.print();
+		InitialValues ref = new InitialValues();
+        ref.print();
 	}
 }

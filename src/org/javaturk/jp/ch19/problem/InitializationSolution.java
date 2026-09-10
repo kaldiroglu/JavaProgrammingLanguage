@@ -3,13 +3,17 @@ package org.javaturk.jp.ch19.problem;
 import java.time.LocalTime;
 import java.util.Random;
 
+/**
+ * This is the solution to problems represented in InitializationProblem1, InitializationProblem2,
+ * InitializationProblem3, and InitializationProblem4 classes.
+ */
 class InitializationSolution {
 	String name;
 	double coefficient;
 	int ratio;
 
 	{
-		{
+		{	// Inner block
 			double coefficient = 5;
 		}
 		name = "default";

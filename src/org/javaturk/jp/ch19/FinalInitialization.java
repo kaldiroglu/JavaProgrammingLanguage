@@ -7,14 +7,13 @@ class FinalInitialization {
 }
 
 class A {
-
 	final int i;
 	String name;
 	
 	static final int j;
 	
 	{
-		i = 11;
+//		i = 11;
 	}
 	
 	static
@@ -23,18 +22,18 @@ class A {
 	}
 
 	A() {
-		//i = 5;
+//		i = 5;
 		this(5);
 	}
 
 	A(int i) {
-//		this.i = i;
-//		j = 17;
+		this.i = i;
+//		j = 17;   // Error! It is final!
 	}
 
 	A(String name) {
 		this.name = name;
-//		i = 12;
+		i = 12;
 //		j = 17;
 	}
 }

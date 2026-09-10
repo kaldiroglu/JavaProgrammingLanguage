@@ -7,10 +7,10 @@ class MemberDefinition {
 	int counter = 1; // Source of the error.
 //	static double percentage = 5.8;
 	
-//	Compiler error! Can't make static reference to a non-static field.
+//	Compiler error! Can't make a static reference to a non-static field.
 //	static double totalPercentage = counter * percentage;
 	
 //	That's ok.
-//	double totalPercentage = counter * percentage;
-//	static double percentage = 5.8;
+	double totalPercentage = counter * percentage;
+	static double percentage = 5.8;
 }

@@ -2,6 +2,11 @@ package org.javaturk.jp.ch19.problem;
 
 import java.time.LocalTime;
 
+/**
+ * This illustrates the problem of assigning an initial value to coefficient.
+ * We can use initialization methods to avoid code duplication and call them from within the constructors.
+ * But that is risky too, calling those methods can easily be forgotten, especially in new constructorsç
+ */
 class InitializationProblem3 {
 	String name;
 
