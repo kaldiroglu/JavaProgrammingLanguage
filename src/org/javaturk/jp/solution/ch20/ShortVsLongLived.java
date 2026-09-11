@@ -33,7 +33,7 @@ class ShortVsLongLived {
         }
     }
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         MemoryProbe.show("at the start");
         shortLived(300);
         MemoryProbe.show("after 300 short lived blocks");
