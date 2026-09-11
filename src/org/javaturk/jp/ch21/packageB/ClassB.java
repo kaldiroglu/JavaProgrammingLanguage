@@ -1,7 +1,5 @@
 package org.javaturk.jp.ch21.packageB;
 
-import org.*; // Only imports the classes under the package "org"
-
 import org.javaturk.jp.ch21.packageX.ClassX;
 import org.javaturk.jp.ch21.packageX.ClassZ;
 
