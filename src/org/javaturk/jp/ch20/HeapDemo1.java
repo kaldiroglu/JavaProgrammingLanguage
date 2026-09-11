@@ -2,8 +2,6 @@ package org.javaturk.jp.ch20;
 
 import java.util.Scanner;
 
-import org.javaturk.jp.ch20.MemoryUtil;
-
 class HeapDemo1 {
     public static void main(String[] args) {
         MemoryUtil.getMemory();

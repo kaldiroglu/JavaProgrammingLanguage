@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import static org.javaturk.jp.ch20.MemoryUtil.getMemory;
-
 class HeapDemo2 {
     static List list = new ArrayList();
 
@@ -17,23 +15,23 @@ class HeapDemo2 {
 
     static void run1(long objectCount) {
         System.out.println("At the beginning.");
-        getMemory();
+        MemoryUtil.getMemory();
         for (long i = 1; i <= objectCount; i++) {
             Person person = new Person("TCKN" + i, "Akin" + i, "Kaldiroglu" + i, "Address" + i, "Phone" + i, "CellPhone" + i);
             Car car = new Car(i, "Turkey" + i, "Personal car" + i, "Mercedes" + i, "CLK200" + i, "2012" + i, i, i, person);
             list.add(car);
             if (i % 1_000_000 == 0) {
                 System.out.println("Object count: " + (2 * i));
-                getMemory();
+                MemoryUtil.getMemory();
             }
         }
         System.out.println("Done!");
-        getMemory();
+        MemoryUtil.getMemory();
     }
 
     static void run2(long objectCount) {
         System.out.println("At the beginning.");
-        getMemory();
+        MemoryUtil.getMemory();
         for (long i = 1; i <= objectCount; i++) {
             Person person = new Person("TCKN" + i, "Akin" + i, "Kaldiroglu" + i, "Address" + i, "Phone" + i, "CellPhone" + i);
             Car car = new Car(i, "Turkey" + i, "Personal car" + i, "Mercedes" + i, "CLK200" + i, "2012" + i, i, i, person);
@@ -44,10 +42,10 @@ class HeapDemo2 {
                 double random = Math.random();
                 if (random > 0.20)
                     list.clear();
-                getMemory();
+                MemoryUtil.getMemory();
             }
         }
         System.out.println("Done!");
-        getMemory();
+        MemoryUtil.getMemory();
     }
 }
