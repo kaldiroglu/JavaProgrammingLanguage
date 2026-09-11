@@ -1,9 +1,9 @@
 
 package org.javaturk.jp.ch21.staticImport;
 
-//import static org.javaturk.jp.ch21.staticImport.AClass.A_CONSTANT;
-//import static org.javaturk.jp.ch21.staticImport.AClass.aStaticVariable;
-//import static org.javaturk.jp.ch21.staticImport.AClass.aStaticMethod;
+import static org.javaturk.jp.ch21.staticImport.AClass.A_CONSTANT;
+import static org.javaturk.jp.ch21.staticImport.AClass.aStaticVariable;
+import static org.javaturk.jp.ch21.staticImport.AClass.aStaticMethod;
 
 public class StaticImportCaution {
 
