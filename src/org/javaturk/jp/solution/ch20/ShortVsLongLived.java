@@ -1,7 +1,7 @@
 package org.javaturk.jp.solution.ch20;
 
 /**
- * Homework 3 — why HeapDemo1 stays flat while HeapDemo2.run1() climbs.
+ * Homework 2 — why HeapDemo1 stays flat while HeapDemo2.run1() climbs.
  *
  * Both loops create exactly the same objects. The only difference is whether a
  * reference to each one is stored somewhere that outlives the loop turn.
