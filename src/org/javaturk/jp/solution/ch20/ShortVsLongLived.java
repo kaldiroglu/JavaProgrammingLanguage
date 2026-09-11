@@ -42,6 +42,6 @@ class ShortVsLongLived {
 
         longLived(300);
         System.gc();
-        MemoryProbe.show("after 300 long lived blocks");
+        MemoryProbe.show("after System.gc()");
     }
 }
