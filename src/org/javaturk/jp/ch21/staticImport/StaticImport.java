@@ -3,8 +3,9 @@ package org.javaturk.jp.ch21.staticImport;
 
 import static java.lang.Math.PI;
 import static java.lang.Math.pow;
+
 import static org.javaturk.jp.ch21.staticImport.AClass.*;
-// Or following lines
+// Or following lines imports each of AClass's static members
 import static org.javaturk.jp.ch21.staticImport.AClass.A_CONSTANT;
 import static org.javaturk.jp.ch21.staticImport.AClass.aStaticVariable;
 import static org.javaturk.jp.ch21.staticImport.AClass.aStaticMethod;
