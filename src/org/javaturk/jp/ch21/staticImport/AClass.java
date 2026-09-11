@@ -1,7 +1,7 @@
 
 package org.javaturk.jp.ch21.staticImport;
 
-public class AClass {
+class AClass {
 
 	public static boolean aStaticVariable;
 
