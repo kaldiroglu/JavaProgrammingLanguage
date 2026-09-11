@@ -6,9 +6,9 @@ import static java.lang.Math.pow;
 
 import static org.javaturk.jp.ch21.staticImport.AClass.*;
 // Instead of the line above, following lines import each of AClass's static members
-import static org.javaturk.jp.ch21.staticImport.AClass.A_CONSTANT;
-import static org.javaturk.jp.ch21.staticImport.AClass.aStaticVariable;
-import static org.javaturk.jp.ch21.staticImport.AClass.aStaticMethod;
+//import static org.javaturk.jp.ch21.staticImport.AClass.A_CONSTANT;
+//import static org.javaturk.jp.ch21.staticImport.AClass.aStaticVariable;
+//import static org.javaturk.jp.ch21.staticImport.AClass.aStaticMethod;
 
 public class StaticImport {
 
