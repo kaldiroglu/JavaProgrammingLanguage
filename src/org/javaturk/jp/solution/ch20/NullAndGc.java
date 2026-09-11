@@ -22,7 +22,7 @@ class NullAndGc {
         kept = null;                       // the object is now unreachable
         MemoryProbe.show("3. right after kept = null");
 
-        System.gc();                       // only a hint - see slide 33
+        System.gc();                       // only a hint - see slide 34
         MemoryProbe.show("4. after System.gc()");
     }
 }
