@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch21.packageB;
 
-//import org.*; // Only imports the classes under the package "org"
+import org.*; // Only imports the classes under the package "org"
 
 import org.javaturk.jp.ch21.packageX.ClassX;
 import org.javaturk.jp.ch21.packageX.ClassZ;
@@ -8,6 +8,7 @@ import org.javaturk.jp.ch21.packageX.ClassZ;
 public class ClassB {
 	ClassX x;
 	ClassZ z;
+	AnotherClass anotherClass;
 	
 	public ClassB(ClassX x) {
 		this.x = x;
@@ -16,6 +17,7 @@ public class ClassB {
 	public ClassB(ClassX x, ClassZ z) {
 		this.x = x;
 		this.z = z;
+		anotherClass = new AnotherClass();
 	}
 }
 
