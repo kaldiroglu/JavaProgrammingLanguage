@@ -26,8 +26,8 @@ class MemoryProbe {
     static double usedMB() { return (RUNTIME.totalMemory() - RUNTIME.freeMemory()) / MB; }
 
     static void show(String label) {
-        System.out.printf("%-32s Max: %7.1f  Size: %7.1f  Used: %7.1f MB%n",
-                label, maxMB(), sizeMB(), usedMB());
+        System.out.printf("%-32s Max: %7.1f  Size: %7.1f  Used: %7.1f MB Free: %7.1f MB%n",
+                label, maxMB(), sizeMB(), usedMB(), freeMB());
     }
 
     public static void main(String[] args) {
