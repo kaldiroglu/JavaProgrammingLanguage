@@ -1,11 +1,10 @@
 package org.javaturk.jp.ch19.order;
 
 class ClassInitializationOrder1 {
-
     public static void main(String[] args) {
 //		ClassA a; // Doesn't cause anything because no part of the ClassA is reached.
 //
-//		System.out.println(ClassA.i);	// Causes the initialization of ClassA
+//		System.out.println("ClassA.i: " + ClassA.i);	// Causes the initialization of ClassA
 //		ClassA.init();
 //
 //		System.out.println("*********");
@@ -23,6 +22,7 @@ class ClassA {
     static String name = "JAVA";
 
     static {
+        System.out.println("in static initialization block");
         System.out.println("i: " + i);
         System.out.println("Initial value of d1: " + d1);
         d1 = Math.random() * 10;
