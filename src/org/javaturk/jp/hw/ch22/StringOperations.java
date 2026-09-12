@@ -10,7 +10,6 @@ public class StringOperations {
 //        System.out.println(StringUtils.reverse("Hello World!").toUpperCase());
 //        System.out.println(StringUtils.reverse("Hello World!   ").trim());
 //        System.out.println(StringUtils.reverse("Hello World!").substring(0, 5));
-//
 //        System.out.println(StringUtils.difference("Hello World!", "Hello Java!"));
     }
 }
