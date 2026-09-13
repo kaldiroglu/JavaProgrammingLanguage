@@ -2,7 +2,7 @@ package org.javaturk.jp.ch21.packageA;
 
 class ClassA {
 
-    //	ClassX x1; // Error!
+//    	ClassX x1; // Error!
     org.javaturk.jp.ch21.packageX.ClassX x;
 
     ClassA(org.javaturk.jp.ch21.packageX.ClassX x) {

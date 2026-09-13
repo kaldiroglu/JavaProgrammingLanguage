@@ -7,6 +7,6 @@ public class ImportingAnotherClass {
 
     public ImportingAnotherClass() {
         anotherClass = new AnotherClass();
-//        javaturk.jp.ch21.MyClass myClass = new javaturk.jp.ch21.MyClass(); // Problem!
+//        ClassA classA = new ClassA(); // Problem!
     }
 }

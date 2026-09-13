@@ -18,7 +18,6 @@ void saySalam(String whom) {
     int limit = random.nextInt(10);
     for (int i = 0; i < limit; i++)
         System.out.println(s.saySalam(whom));
-
 }
 
 void sayHello(String whom) {
