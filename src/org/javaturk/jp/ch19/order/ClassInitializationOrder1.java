@@ -43,7 +43,7 @@ class ClassA {
 
     static void printInfo() {
         System.out.println("\nInfo");
-        System.out.println("i: " + i + " d1: " + d1 + " d2: " + d2);
+        System.out.println("i:  " + i + "  d1: " + d1 + " d2: " + d2);
     }
 
     static double d2;

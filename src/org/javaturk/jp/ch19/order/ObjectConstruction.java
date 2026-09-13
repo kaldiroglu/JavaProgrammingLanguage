@@ -3,13 +3,13 @@ package org.javaturk.jp.ch19.order;
 class ObjectConstruction {
 
     public static void main(String[] args) {
-        ClassB b;
-////
-        ClassB b1 = new ClassB();
-        System.out.println("******************************");
-        ClassB b2 = new ClassB();
+//        ClassB b;
+//
+//        ClassB b1 = new ClassB();
+//        System.out.println("\n******************************\n");
+//        ClassB b2 = new ClassB("Java");
 //		System.out.println("******************************");
-//		new ClassB(); //.printInfo();
+//		new ClassB().printInfo();
     }
 }
 

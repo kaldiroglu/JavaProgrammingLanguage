@@ -23,19 +23,19 @@ class InitializationOrder {
     public static void main(String[] args) {
 //		System.out.println("*****************************");
 //		System.out.println("in compact");
-//		System.out.println("*****************************");
-//		System.out.println(InitializationOrder.i);
-//		System.out.println("*****************************");
-//		InitializationOrder oi = new InitializationOrder();
-//		System.out.println("*****************************");
-//		new InitializationOrder();
-//		System.out.println("*****************************");
-//		new InitializationOrder();
-//		System.out.println("*****************************");
-//		new InitializationOrder();
-//		System.out.println("*****************************");
-//		B b = new B();
-//		b.f();	
+		System.out.println("*****************************");
+		System.out.println(InitializationOrder.i);
+		System.out.println("*****************************");
+		InitializationOrder oi = new InitializationOrder();
+		System.out.println("*****************************");
+		new InitializationOrder();
+		System.out.println("*****************************");
+		new InitializationOrder();
+		System.out.println("*****************************");
+		new InitializationOrder();
+		System.out.println("*****************************");
+		B b = new B();
+		b.f();
     }
 
     C c = new C();

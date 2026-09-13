@@ -2,8 +2,8 @@ package org.javaturk.jp.ch19.order;
 
 class ClassInitializationOrder2 {
     public static void main(String[] args) {
-//		System.out.println("ClassAA.i: " + ClassAA.i); // Does cause the initialization of ClassAA
-//        System.out.println("ClassAA.j: " + ClassAA.j); // Doesn't cause the initialization of ClassAA
+        System.out.println("ClassAA.i: " + ClassAA.i); // Does cause the initialization of ClassAA
+        System.out.println("ClassAA.j: " + ClassAA.j); // Doesn't cause the initialization of ClassAA
         System.out.println("ClassAA.s: " + ClassAA.s); // Doesn't cause the initialization of ClassAA
 //		System.out.println(ClassAA.CONSTANT);	// Causes the initialization of ClassAA
 //		ClassAA.printInfo();
