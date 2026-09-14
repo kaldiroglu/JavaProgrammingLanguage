@@ -8,7 +8,6 @@ public class ClassP {
 
 	public void publicMethod() {
 		System.out.println(z);
-		Class z;
 		privateMethod();
 	}
 
