@@ -2,8 +2,8 @@ package org.javaturk.jp.ch19.order;
 
 class ClassInitializationOrder2 {
     public static void main(String[] args) {
-        System.out.println("ClassAA.i: " + ClassAA.i); // Does cause the initialization of ClassAA
-        System.out.println("ClassAA.j: " + ClassAA.j); // Doesn't cause the initialization of ClassAA
+//        System.out.println("ClassAA.i: " + ClassAA.i); // Does cause the initialization of ClassAA
+//        System.out.println("ClassAA.j: " + ClassAA.j); // Doesn't cause the initialization of ClassAA
         System.out.println("ClassAA.s: " + ClassAA.s); // Doesn't cause the initialization of ClassAA
 //		System.out.println(ClassAA.CONSTANT);	// Causes the initialization of ClassAA
 //		ClassAA.printInfo();
@@ -18,8 +18,8 @@ class ClassAA {
     static final int j = i;
     //	try with
 //static final int j = i;
-    final static String s;
-//    final static String s = "Nabersin?";
+//    final static String s;
+    final static String s = "Nabersin?";
 //	static int i = 21;
 //	static int j = 14;
 //	static String name = "Java";
@@ -28,7 +28,7 @@ class ClassAA {
         System.out.println("in static initializer block of ClassAA - 1");
         System.out.println("i: " + i);
         System.out.println("j: " + j);
-        s = "Naber?";
+//        s = "Naber?";
         System.out.println("s: " + s);
     }
 
