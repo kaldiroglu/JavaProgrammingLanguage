@@ -44,7 +44,7 @@ enum Size {
 		Size size = switch(abbreviation){
 			case "S" -> SMALL;
 			case "M" -> MEDIUM;
-			case "X" -> LARGE;
+			case "L" -> LARGE;
 			case "XL" -> EXTRA_LARGE;
 			default -> MEDIUM;
 		};
