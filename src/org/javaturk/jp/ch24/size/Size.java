@@ -46,6 +46,7 @@ enum Size {
 			case "M" -> MEDIUM;
 			case "L" -> LARGE;
 			case "XL" -> EXTRA_LARGE;
+			case "?" -> UNKNOWN;
 			default -> MEDIUM;
 		};
 
