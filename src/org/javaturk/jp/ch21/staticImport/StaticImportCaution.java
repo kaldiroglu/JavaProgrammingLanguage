@@ -1,7 +1,7 @@
 
 package org.javaturk.jp.ch21.staticImport;
 
-import static java.lang.Math.*;
+//import static java.lang.Math.*;
 
 public class StaticImportCaution {
 

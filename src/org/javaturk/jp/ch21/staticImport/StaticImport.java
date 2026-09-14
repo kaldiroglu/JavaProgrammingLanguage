@@ -13,7 +13,7 @@ import static org.javaturk.jp.ch21.staticImport.AClass.*;
 public class StaticImport {
 
 	public static void main(String[] args) {
-		System.out.println(A_CONSTANT);
+		System.out.println(AClass.A_CONSTANT);
 		System.out.println(aStaticVariable);
 		aStaticMethod();
 		
