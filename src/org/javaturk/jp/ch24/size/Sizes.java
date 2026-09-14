@@ -1,6 +1,7 @@
 package org.javaturk.jp.ch24.size;
 
 import static org.javaturk.jp.ch24.size.Size.MEDIUM;
+import static org.javaturk.jp.ch24.size.Size.UNKNOWN;
 
 public class Sizes {
 	public static void main(String[] args) {
@@ -13,29 +14,36 @@ public class Sizes {
 	}
 
 	public static void sizes(){
-		Size size1 = Size.LARGE;
-		String name = size1.name();
-		System.out.println("\nEnum: " + name + " - " + size1);
-		System.out.println("Ordinal: " + size1.ordinal());
-		System.out.println("Abbreviation: " + size1.getAbbreviation());
-		System.out.println("No: " + size1.getNo());
+		Size size = Size.LARGE;
+		printInfo(size);
 
 		System.out.println();
 
-		Size size2 = MEDIUM;
-		String name2 = size2.name();
-		System.out.println("Enum: " + name2 + " - " + size2);
-		System.out.println("Ordinal: " + size2.ordinal());
-		System.out.println("Abbreviation: " + size2.getAbbreviation());
-		System.out.println("No: " + size2.getNo());
+		size = MEDIUM;
+		printInfo(size);
+
+		System.out.println();
+
+		size = UNKNOWN;
+		printInfo(size);
 
 		System.out.println(Size.getDescription());
 
-		Size size = Size.getSizeForAbbreviation("XL");
+		size = Size.getSizeForAbbreviation("XL");
 		System.out.println(size);
 
 		Size[] allSizes = Size.values();
 		for(Size s : allSizes)
 			System.out.println(s);
+	}
+
+	static void printInfo(Size size){
+		System.out.println("Size Information:");
+		System.out.println("Size: " + size);
+		String name = size.name();
+		System.out.println("Enum: " + size + " - " + size);
+		System.out.println("Ordinal: " + size.ordinal());
+		System.out.println("Abbreviation: " + size.getAbbreviation());
+		System.out.println("No: " + size.getNo());
 	}
 }

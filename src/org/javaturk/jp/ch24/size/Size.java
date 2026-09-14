@@ -1,7 +1,8 @@
 package org.javaturk.jp.ch24.size;
 
 enum Size {
-	SMALL("S", 1), MEDIUM("M", 2), LARGE("L", 3), EXTRA_LARGE("XL", 4);
+	SMALL("S", 1), MEDIUM("M", 2), LARGE("L", 3), EXTRA_LARGE("XL", 4),
+	UNKNOWN;       // no arguments: the no-arg constructor runs
 
 	private String abbreviation;
 	private int no;
@@ -10,13 +11,18 @@ enum Size {
 	private static int count;
 
 	static {
-		System.out.println("in static initializer block");
+		System.out.println("in static initializer block\n");
 		description = "These are sizes.";
 	}
 
 	{
 		//count++; // can't do this!
 		System.out.println("in object initializer block");
+	}
+
+	Size() {
+		this("?", 0); // delegates to the two-argument constructor
+		System.out.println("Size() finished for " + name());
 	}
 
 	private Size(String abbreviation, int no) {
