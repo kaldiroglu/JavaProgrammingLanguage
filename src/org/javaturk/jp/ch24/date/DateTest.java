@@ -5,7 +5,7 @@ import org.javaturk.jp.ch24.date.dateEnums.DayOfMonth;
 import org.javaturk.jp.ch24.date.dateEnums.Month;
 import org.javaturk.jp.ch24.date.dateEnums.Year;
 
-public class DateTest {
+class DateTest {
 
 	public static void main(String[] args) {
 		Date1 ed1 = new Date1(2, 25, 121213232);

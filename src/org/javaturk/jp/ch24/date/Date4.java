@@ -3,7 +3,7 @@ package org.javaturk.jp.ch24.date;
 
 import org.javaturk.jp.ch24.date.dateEnums.*;
 
-public class Date4 {
+class Date4 {
 	
 	private DayOfMonth dayOfMonth;
 	private Month month;

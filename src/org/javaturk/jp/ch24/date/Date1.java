@@ -1,7 +1,7 @@
 
 package org.javaturk.jp.ch24.date;
 
-public class Date1 {
+class Date1 {
 	
 	int dayOfMonth;
 	int month;
