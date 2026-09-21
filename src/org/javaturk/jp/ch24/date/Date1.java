@@ -1,4 +1,3 @@
-
 package org.javaturk.jp.ch24.date;
 
 class Date1 {

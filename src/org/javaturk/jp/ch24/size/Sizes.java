@@ -32,6 +32,8 @@ public class Sizes {
         size = Size.getSizeForAbbreviation("XL");
         System.out.println(size);
 
+        System.out.println();
+
         Size[] allSizes = Size.values();
         for (Size s : allSizes)
             System.out.println(s);
@@ -41,7 +43,7 @@ public class Sizes {
         System.out.println("Size Information:");
         System.out.println("Size: " + size);
         String name = size.name();
-        System.out.println("Enum: " + size + " - " + size);
+        System.out.println("Enum: " + size + " - " + name);
         System.out.println("Ordinal: " + size.ordinal());
         System.out.println("Abbreviation: " + size.getAbbreviation());
         System.out.println("No: " + size.getNo());

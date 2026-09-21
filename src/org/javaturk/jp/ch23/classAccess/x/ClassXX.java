@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch23.classAccess.x;
 
-class ClassXX {
+public class ClassXX {
 
 	ClassZZ z;
 	
