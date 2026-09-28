@@ -6,4 +6,4 @@ One file per chapter, named after the chapter it belongs to. The source code the
 is under [`src/`](../src) in this repository, in packages `org.javaturk.jp.chNN`, where `NN` is
 the chapter number.
 
-For further enquiry please contact Akin Kaldiroglu at akin@kaldiroglu.dev
+For further enquiry please contact Akin Kaldiroglu at akin@javaturk.org
