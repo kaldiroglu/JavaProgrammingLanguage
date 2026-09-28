@@ -1,6 +1,9 @@
 Bu, BTK Akademi (https://www.btkakademi.gov.tr/) için hazırladığım "Java Programlama Dili" eğitiminin kaynak kodlarıdır.
 Daha fazla yardım ve öneri için lütfen bana akin@javaturk.org adresinden ulaşın.
 
+Slides dizininde bu eğitimin PDF sunumları bulunmaktadır. Slides dizinindeki PDF dosyaları eğitim sunumlarıdır.
+Bu sunumlar, video eğitimde kullandığım sunumlardır.
+
 Bu, org.javaturk.jp altındaki paketler için konuların listesidir:
 
 * 01 - Java Geliştirme Ortamı (Java Development Environment)  
