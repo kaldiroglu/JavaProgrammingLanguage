@@ -1,9 +1,5 @@
 # Slides
 
-Slides of the course *Java Programlama Dili* (Java Programming Language), in PDF.
-
-One file per chapter, named after the chapter it belongs to. The source code the slides refer to
-is under [`src/`](../src) in this repository, in packages `org.javaturk.jp.chNN`, where `NN` is
-the chapter number.
-
-For further enquiry please contact Akin Kaldiroglu at akin@javaturk.org
+Buradaki PDF dosyaları, Java Programlama Dili dersinin yansılarıdır.
+Her bölüm için ayrı bir dosya bulunmakta olup, dosyaların adı ait oldukları bölümün adını taşımaktadır. Slaytlarda atıfta bulunulan kaynak kod, bu deponun src/ dizininde, org.javaturk.jp.chNN paketleri altında yer almaktadır; burada NN, bölüm numarasını ifade etmektedir.
+Daha fazla bilgi için lütfen Akin Kaldiroglu ile akin@javaturk.org adresinden iletişime geçiniz.
