@@ -1,3 +1,5 @@
+# Java Programlama Dili Eğitimi Kaynak Kodları
+
 Bu, BTK Akademi (https://www.btkakademi.gov.tr/) için hazırladığım "Java Programlama Dili" eğitiminin kaynak kodlarıdır.
 Daha fazla yardım ve öneri için lütfen bana akin@javaturk.org adresinden ulaşın.
 
@@ -34,6 +36,7 @@ Bu, org.javaturk.jp altındaki paketler için konuların listesidir:
 * game - Sayı Tahmin oyunu 
 * hw - Bazı ödevler için gerekli sınıflar 
 
+Ayrıca yansılardaki hatalar için [DUZELTMELER.md](DUZELTMELER.md) dosyasına, SSS için de [SSS.md](SSS.md) dosyasına bakın.
 
 
 
