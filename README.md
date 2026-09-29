@@ -32,7 +32,8 @@ Bu, org.javaturk.jp altındaki paketler için konuların listesidir:
 * 22 - Classpath
 * 23 - Sarmalama ve Bilgi Saklama (Encapsulation and Information Hiding)
 * 24 - enum
-* ex - Bazı uygulamalar için gerekli sınıflar 
+* 25 - Sırada Ne var?
+* ex - Bazı uygulamalar için gerekli sınıflar
 * game - Sayı Tahmin oyunu 
 * hw - Bazı ödevler için gerekli sınıflar 
 
