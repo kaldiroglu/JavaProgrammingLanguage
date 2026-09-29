@@ -1,10 +1,10 @@
 # Sıkça Sorulan Sorular (SSS)
 
 Bu dosyada *Java Programlama Dili* eğitimiyle ilgili sık sorulan soruların cevaplarını
-bulabilirsiniz. Slayt numaraları, bu depodaki `Slides` klasöründeki PDF'lere göredir.
+bulabilirsiniz. Yansı numaraları, bu depodaki `Slides` klasöründeki PDF'lere göredir.
 
 Sorunuzun cevabını burada bulamazsanız bana akin@javaturk.org adresinden ulaşabilirsiniz.
-Slaytlardaki hatalar için [DUZELTMELER.md](DUZELTMELER.md) dosyasına bakın.
+Yansılardaki hatalar için [DUZELTMELER.md](DUZELTMELER.md) dosyasına bakın.
 
 ## İçindekiler
 
@@ -40,6 +40,11 @@ Microsoft Build of OpenJDK — hangisini kurarsanız kurun, dersimiz için fark 
 Derleme hatası varsa class dosyası oluşmaz.
 
 **İlgili:** Bölüm 2, *SimpleSelam.java'yı Derleme*
+
+### Yansılardaki kodları kopyala-yapıştıur ile çalıştırabilir miyim?
+
+Yansılardaki tüm Java kodları bu repoda vardır, yansılardan kopyala-yapıştır ile alıp derlemeye çalışmayın.
+
 
 ---
 
