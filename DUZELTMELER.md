@@ -1,0 +1,2 @@
+Burada yansılardaki değişiklikleri ve güncellemeleri bulabilirsiniz. Siz de yazım hatalarını veya yanlış oldupğunu dülşüğünüz yerleri bize bildirebilirsiniz. Bu sayede içeriklerimizi daha doğru ve anlaşılır hale getirebiliriz.
+Bana her zaman akin@javaturk.org adresinden ulaşabilirsiniz.

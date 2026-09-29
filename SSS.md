@@ -1,0 +1,1 @@
+Burada Sıkça Sorulan Sorular ve cevaplarını paylaşacağım.
