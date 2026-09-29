@@ -35,9 +35,10 @@ Microsoft Build of OpenJDK — hangisini kurarsanız kurun, dersimiz için fark 
 ## Derleme ve Çalıştırma
 
 ### `javac` ile derledim, class dosyası nerede?
-
+<span style="color: red">
 `javac` komutunu çalıştırdığınız dizinde, kaynak dosyayla aynı yerde oluşur.
 Derleme hatası varsa class dosyası oluşmaz.
+</span>
 
 **İlgili:** Bölüm 2, *SimpleSelam.java'yı Derleme*
 
