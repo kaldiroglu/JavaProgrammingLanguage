@@ -5,6 +5,6 @@ Hatanın olduğu PDF dosyalarını güncellemeyeceğim, yansılar, videodaki gö
 Bana her zaman akin@javaturk.org adresinden ulaşabilirsiniz.
 
 
-| Bölüm | Sayfa | Yazılan | Doğrusu | Eklenme |
-|--|------|---|---|--|
-|  |      |  |  |  |
+| Bölüm | Sayfa | Yazılan  | Doğrusu  | Eklenme Tarihi |
+|--|------|----------|----------|----------------|
+|  |      |          |          |                |
