@@ -5,38 +5,38 @@ Hatanın olduğu PDF dosyalarını güncellemeyeceğim, yansılar, videodaki gö
 Bana her zaman akin@javaturk.org adresinden ulaşabilirsiniz.
 
 
-| Bölüm | Sayfa | Yazılan  | Doğrusu  | Eklenme Tarihi |
-|--|------|----------|----------|----------------|
-| 2 | 5 | kullanılan İŞ'ydi | kullanılan İS'ydi | 29.09.2026 |
-| 2 | 7 | James Gosling \*7'nı anlatıyor | James Gosling \*7'yi anlatıyor | 29.09.2026 |
-| 2 | 7 | dokunmalı ekrana | dokunmatik ekrana | 29.09.2026 |
-| 2 | 9 | farkettiler | fark ettiler | 29.09.2026 |
-| 2 | 16 | 90lı yıllarda | 90'lı yıllarda | 29.09.2026 |
-| 2 | 22 | architectural-neutral | architecture-neutral | 29.09.2026 |
-| 2 | 24 | Tabi olarak | Tabii olarak | 29.09.2026 |
-| 2 | 35 | çalışma zamanın problemsiz ve yüksek performansı olmasını | çalışma zamanının problemsiz ve yüksek performanslı olmasını | 29.09.2026 |
-| 2 | 36, 37 | Pİ sayısını | pi sayısını | 29.09.2026 |
-| 2 | 36, 82 | masa üstü | masaüstü | 29.09.2026 |
-| 2 | 42 | çalışma şekilinin tabi olarak | çalışma şeklinin tabii olarak | 29.09.2026 |
-| 2 | 47 | best of the both worlds | best of both worlds | 29.09.2026 |
-| 2 | 51 | bir kaç farklı kodu | birkaç farklı kodu | 29.09.2026 |
-| 2 | 52, 77–81, 87, 90–92, 98, 102–105 | Kod kutularında kıvrık tırnak: `“Selam ”`, `“Ali”` | Düz tırnak: `"Selam "`, `"Ali"` — kıvrık tırnaklı kod kopyalanırsa derlenmez | 29.09.2026 |
-| 2 | 54 | makina diline çevirilerek | makina diline çevrilerek | 29.09.2026 |
-| 2 | 55 | SimpleSelam.class'da | SimpleSelam.class'ta | 29.09.2026 |
-| 2 | 56, 59, 62 | SimpleSelam.java'ı (başlık) | SimpleSelam.java'yı | 29.09.2026 |
-| 2 | 81 | Selam sınıfınının | Selam sınıfının | 29.09.2026 |
-| 2 | 83 | kaynak dosyalarının olduğu dizininde | kaynak dosyalarının olduğu dizinde | 29.09.2026 |
-| 2 | 87 | `object.sayHello("Maria);` | `object.sayHello("Maria");` | 29.09.2026 |
-| 2 | 88 | nesne yaratıcak | nesne yaratacak | 29.09.2026 |
-| 2 | 90–92 | `answer` değişkeni iki kez tanımlanmış: `String answer = selamlama.greet("Zeynep");` | İlki başka bir isimle: `String cevap = selamlama.greet("Zeynep");` ve `System.out.println(cevap);` | 29.09.2026 |
-| 2 | 98 | `nesne.selamSoyle("Ali")` | `nesne.selamSöyle("Ali")` — metodun adı `selamSöyle` | 29.09.2026 |
-| 2 | 111 | aşinalık elde edinilmelidir | aşinalık edinilmelidir | 29.09.2026 |
-| 2 | 129 | Java 25 ile gelen yenilikleri göz atın | Java 25 ile gelen yeniliklere göz atın | 29.09.2026 |
-| 2 | 130 | learn.java/ sayfası ziyaret edin | learn.java/ sayfasını ziyaret edin | 29.09.2026 |
-| 2 | 134 | piyasaya çıkan Java, … karşıladığı | piyasaya çıkan Java'nın … karşıladığı | 29.09.2026 |
-| 2 | 137 | Closure | Clojure | 29.09.2026 |
-| 2 | 138 | IntelliJ'in IDEleri, Eclipse, Netbeans IDEleri | JetBrains'in IDE'leri, Eclipse, NetBeans IDE'leri | 29.09.2026 |
-| 2 | 140 | JavaSE 26 | Java SE 26 | 29.09.2026 |
-| 2 | 145 | iki metota geçerek | iki metoda geçerek | 29.09.2026 |
-| 2 | 147 | JDK, JRE veJVM | JDK, JRE ve JVM | 29.09.2026 |
-| 2 | 148 | Hotspot JVM | HotSpot JVM | 29.09.2026 |
+| Bölüm | Sayfa                             | Yazılan                                                                              | Doğrusu                                                                                            | Eklenme Tarihi |
+|-------|-----------------------------------|--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|----------------|
+| 2     | 5                                 | kullanılan İŞ'ydi                                                                    | kullanılan İS'ydi                                                                                  | 29.09.2026     |
+| 2     | 7                                 | James Gosling \*7'nı anlatıyor                                                       | James Gosling \*7'yi anlatıyor                                                                     | 29.09.2026     |
+| 2     | 7                                 | dokunmalı ekrana                                                                     | dokunmatik ekrana                                                                                  | 29.09.2026     |
+| 2     | 9                                 | farkettiler                                                                          | fark ettiler                                                                                       | 29.09.2026     |
+| 2     | 16                                | 90lı yıllarda                                                                        | 90'lı yıllarda                                                                                     | 29.09.2026     |
+| 2     | 22                                | architectural-neutral                                                                | architecture-neutral                                                                               | 29.09.2026     |
+| 2     | 24                                | Tabi olarak                                                                          | Tabii olarak                                                                                       | 29.09.2026     |
+| 2     | 35                                | çalışma zamanın problemsiz ve yüksek performansı olmasını                            | çalışma zamanının problemsiz ve yüksek performanslı olmasını                                       | 29.09.2026     |
+| 2     | 36, 37                            | Pİ sayısını                                                                          | pi sayısını                                                                                        | 29.09.2026     |
+| 2     | 36, 82                            | masa üstü                                                                            | masaüstü                                                                                           | 29.09.2026     |
+| 2     | 42                                | çalışma şekilinin tabi olarak                                                        | çalışma şeklinin tabii olarak                                                                      | 29.09.2026     |
+| 2     | 47                                | best of the both worlds                                                              | best of both worlds                                                                                | 29.09.2026     |
+| 2     | 51                                | bir kaç farklı kodu                                                                  | birkaç farklı kodu                                                                                 | 29.09.2026     |
+| 2     | 52, 77–81, 87, 90–92, 98, 102–105 | Kod kutularında kıvrık tırnak: `“Selam ”`, `“Ali”`                                   | Düz tırnak: `"Selam "`, `"Ali"` — kıvrık tırnaklı kod kopyalanırsa derlenmez                       | 29.09.2026     |
+| 2     | 54                                | makina diline çevirilerek                                                            | makina diline çevrilerek                                                                           | 29.09.2026     |
+| 2     | 55                                | SimpleSelam.class'da                                                                 | SimpleSelam.class'ta                                                                               | 29.09.2026     |
+| 2     | 56, 59, 62                        | SimpleSelam.java'ı (başlık)                                                          | SimpleSelam.java'yı                                                                                | 29.09.2026     |
+| 2     | 81                                | Selam sınıfınının                                                                    | Selam sınıfının                                                                                    | 29.09.2026     |
+| 2     | 83                                | kaynak dosyalarının olduğu dizininde                                                 | kaynak dosyalarının olduğu dizinde                                                                 | 29.09.2026     |
+| 2     | 87                                | `object.sayHello("Maria);`                                                           | `object.sayHello("Maria");`                                                                        | 29.09.2026     |
+| 2     | 88                                | nesne yaratıcak                                                                      | nesne yaratacak                                                                                    | 29.09.2026     |
+| 2     | 90–92                             | `answer` değişkeni iki kez tanımlanmış: `String answer = selamlama.greet("Zeynep");` | İlki başka bir isimle: `String cevap = selamlama.greet("Zeynep");` ve `System.out.println(cevap);` | 29.09.2026     |
+| 2     | 98                                | `nesne.selamSoyle("Ali")`                                                            | `nesne.selamSöyle("Ali")` — metodun adı `selamSöyle`                                               | 29.09.2026     |
+| 2     | 111                               | aşinalık elde edinilmelidir                                                          | aşinalık edinilmelidir                                                                             | 29.09.2026     |
+| 2     | 129                               | Java 25 ile gelen yenilikleri göz atın                                               | Java 25 ile gelen yeniliklere göz atın                                                             | 29.09.2026     |
+| 2     | 130                               | learn.java/ sayfası ziyaret edin                                                     | learn.java/ sayfasını ziyaret edin                                                                 | 29.09.2026     |
+| 2     | 134                               | piyasaya çıkan Java, … karşıladığı                                                   | piyasaya çıkan Java'nın … karşıladığı                                                              | 29.09.2026     |
+| 2     | 137                               | Closure                                                                              | Clojure                                                                                            | 29.09.2026     |
+| 2     | 138                               | IntelliJ'in IDEleri, Eclipse, Netbeans IDEleri                                       | JetBrains'in IDE'leri, Eclipse, NetBeans IDE'leri                                                  | 29.09.2026     |
+| 2     | 140                               | JavaSE 26                                                                            | Java SE 26                                                                                         | 29.09.2026     |
+| 2     | 145                               | iki metota geçerek                                                                   | iki metoda geçerek                                                                                 | 29.09.2026     |
+| 2     | 147                               | JDK, JRE veJVM                                                                       | JDK, JRE ve JVM                                                                                    | 29.09.2026     |
+| 2     | 148                               | Hotspot JVM                                                                          | HotSpot JVM                                                                                        | 29.09.2026     |
