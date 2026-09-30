@@ -1,6 +1,6 @@
 # Düzeltmeler
 
-Burada yansılardaki hataları bulabilirsiniz. Hatalar çoğunlukla yazım yanlışlarıdır, Kötü Türkçem için özür dilerim :)
+Burada yansılardaki hataları bulabilirsiniz. Hatalar çoğunlukla yazım yanlışlarıdır, kötü Türkçem için özür dilerim :)
 Siz de yazım hatalarını veya yanlış olduğunu düşündüğünüz yerleri bana bildirebilirsiniz. Bu sayede içeriklerimizi daha doğru ve anlaşılır hale getirebiliriz.
 Hatanın olduğu PDF dosyalarını güncellemeyeceğim, yansılar, videodaki görünen halleriyle kalacaklar, sadece hataları aşağıda listeleyeceğim.
 Bana her zaman akin@javaturk.org adresinden ulaşabilirsiniz.
@@ -81,7 +81,7 @@ Bana her zaman akin@javaturk.org adresinden ulaşabilirsiniz.
 | 4     | 66                                | tanımlanan sınıf(lar)ı inceleyin yaratılan nesneleri                                 | tanımlanan sınıf(lar)ı, yaratılan nesneleri                                                        | 30.09.2026     |
 | 4     | 72                                | varsa package ifadesi sadece bir tane olabilir                                       | varsa package cümlesi sadece bir tane olabilir                                                     | 30.09.2026     |
 | 4     | 72                                | package cümlesi … varsa ilk çalışan kod olur                                         | package cümlesi … varsa ilk geçerli koddur                                                         | 30.09.2026     |
-| 4     | 82                                | `import ch04.compact.Selam;`                                                         | `import dev.kaldiroglu.java.ip.ch04.compact.Selam;`                                                | 30.09.2026     |
+| 4     | 82                                | `import ch04.compact.Selam;`                                                         | `import org.javaturk.jp.ch04.compact.Selam;` — bu depodaki `HelloWorld.java` ile aynı              | 30.09.2026     |
 | 4     | 83                                | Selam dizinindeki                                                                    | selam dizinindeki                                                                                  | 30.09.2026     |
 | 4     | 90                                | SelamTest.java sınıfında                                                             | SelamTest.java dosyasında                                                                          | 30.09.2026     |
 | 4     | 97                                | dosyanın ismideki                                                                    | dosyanın ismindeki                                                                                 | 30.09.2026     |
