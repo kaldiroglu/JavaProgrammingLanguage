@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch02.selam;
 
-public class GreetingTest {
+class GreetingTest {
     public static void main(String[] args) {
         Greeting selamlama = new Greeting();
         selamlama.greetingWord = "Selam";

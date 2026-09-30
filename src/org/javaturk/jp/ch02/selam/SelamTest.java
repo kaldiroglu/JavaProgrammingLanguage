@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch02.selam;
 
-public class SelamTest {
+class SelamTest {
 
 	public static void main(String[] args) {
 		Selam nesne = new Selam();

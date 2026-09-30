@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch02.selam;// Exactly the same as Selam.java in ch01
 
-public class SimpleSelam{
+class SimpleSelam{
     public static void main(String[] args) {
         System.out.println("Selam :) ");
     }

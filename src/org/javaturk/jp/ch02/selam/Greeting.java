@@ -1,9 +1,9 @@
 package org.javaturk.jp.ch02.selam;
 
-public class Greeting {
+class Greeting {
     String greetingWord;
 
-    String greet(String whom){
+    String greet(String whom) {
         return greetingWord + " " + whom + " :)";
     }
 }

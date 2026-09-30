@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch02.selam;
 
-public class HelloTest {
+class HelloTest {
 
 	public static void main(String[] args) {
 		Hello object = new Hello();
