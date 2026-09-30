@@ -8,7 +8,7 @@ public class  Hospital {
     Patient[] patients;
     // ...
 
-    public boolean appointment(Date appointmentDate) {
+    public boolean appointmentAt(Date appointmentDate) {
         boolean success = false;
         //...
         return success;
