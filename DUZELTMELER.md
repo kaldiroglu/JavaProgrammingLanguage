@@ -1,6 +1,8 @@
 # Düzeltmeler
 
 Burada yansılardaki hataları bulabilirsiniz. Hatalar çoğunlukla yazım yanlışlarıdır, kötü Türkçem için özür dilerim :)
+Aşağıda sadece ilk 6 bölümdeki hatalar var çünkü sonraki bölümlerin hataları temizlenmişti, yansıları hatasız hâle getirilmişti. 
+
 Siz de yazım hatalarını veya yanlış olduğunu düşündüğünüz yerleri bana bildirebilirsiniz. Bu sayede içeriklerimizi daha doğru ve anlaşılır hale getirebiliriz.
 Hatanın olduğu PDF dosyalarını güncellemeyeceğim, yansılar, videodaki görünen halleriyle kalacaklar, sadece hataları aşağıda listeleyeceğim.
 Bana her zaman akin@javaturk.org adresinden ulaşabilirsiniz.
