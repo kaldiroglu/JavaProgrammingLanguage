@@ -4,6 +4,8 @@ public class FPBinaryConverter {
     public static void main(String[] args) {
         printBinary(1.0);
         printBinary(0.625);
+        printBinary(3.14f);
+        printBinary(3.14);
         // Use 0.1 to see the infinite repeating pattern differences
         printBinary(0.1);
         printBinary(1.0/3.0);
