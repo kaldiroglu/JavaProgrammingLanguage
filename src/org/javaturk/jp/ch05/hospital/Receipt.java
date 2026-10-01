@@ -6,4 +6,5 @@ class Receipt {
     long id;
     Date date;
     Patient patient;
+    double amount;
 }
