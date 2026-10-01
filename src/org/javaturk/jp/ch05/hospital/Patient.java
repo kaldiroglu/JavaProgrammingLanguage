@@ -1,6 +1,6 @@
 package org.javaturk.jp.ch05.hospital;
 
-public class Patient {
+class Patient {
     // Attributes or properties
     String id;
     String name;
@@ -11,11 +11,11 @@ public class Patient {
 
 
     // Behaviors or operations
-    public void takeMedication(Prescription prescription) {
+    void takeMedication(Prescription prescription) {
         //...
     }
 
-    public void visitedBy(String relative) {
+    void visitedBy(String relative) {
         //...
     }
 }

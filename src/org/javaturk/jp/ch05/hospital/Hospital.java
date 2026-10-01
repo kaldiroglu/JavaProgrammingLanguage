@@ -2,19 +2,19 @@ package org.javaturk.jp.ch05.hospital;
 
 import java.util.Date;
 
-public class  Hospital {
+class Hospital {
     String name;
     Doctor[] doctors;
     Patient[] patients;
     // ...
 
-    public boolean appointmentAt(Date appointmentDate) {
+    boolean appointmentAt(Date appointmentDate) {
         boolean success = false;
         //...
         return success;
     }
 
-    public Receipt receive(int payment) {
+    Receipt receive(int payment) {
         Receipt receipt = null;
         // ...
         return receipt;
